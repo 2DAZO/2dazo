@@ -1,5 +1,6 @@
 <template>
   <div class="homeUsado">
+    <HeaderUsados></HeaderUsados>
     <div class="botones-container">
       <router-link to="/nuevo">Nuevo</router-link> |
       <router-link to="/vender">Vender</router-link>
@@ -25,14 +26,14 @@
 
 <script>
 // @ is an alias to /src
-/* import HeaderUsados from "@/components/HeaderUsados.vue";
+import HeaderUsados from "@/components/HeaderUsados.vue";
 
 export default {
   name: "Home",
   components: {
     HeaderUsados,
   },
-}; */
+};
 </script>
 <style scoped>
 .botones-container {

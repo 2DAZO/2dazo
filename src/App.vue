@@ -1,16 +1,5 @@
 <template>
   <div class="app">
-    <div id="nav">
-      <div class="logo">
-              <p>logo</p>
-          </div>
-          <div class="ubicacion">
-              <p>Ingresa tu ubicación</p>
-          </div>
-          <div class="menu">
-
-          </div>
-    </div>
     <router-view />
   </div>
 </template>
