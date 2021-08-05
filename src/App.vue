@@ -18,7 +18,7 @@
     --verde: #25D366;
     --azul: #477CFF;
     --gris: #EAEAE9;
-    --negro: #000;
+    --negro: rgb(44, 44, 44);
 }
 
 .app {
