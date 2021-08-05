@@ -4,7 +4,7 @@
     <a class="navbar-brand" href="#">
       <img src="https://res.cloudinary.com/segundazo/image/upload/v1628141649/LOGO_Mesa_de_trabajo_1_fwfg2h.png" alt=""  height="25">
     </a>
-    <div class="input-group">
+    <div class="input-group buscador">
   <input type="text" class="form-control" placeholder="Lo que menos te imaginas" aria-label="Recipient's username" aria-describedby="button-addon2">
   <button class="btn" type="button" id="button-addon2">Buscar</button>
 </div>
@@ -17,7 +17,7 @@
           <router-link to="/" class="enlace">Categorías</router-link>
         </li>
         <li class="nav-item nav-link">
-          <router-link to="/" class="enlace">Lo más TOP</router-link>
+          <router-link to="/" class="enlace">LomásTOP</router-link>
         </li>
         <li class="nav-item nav-link">
           <router-link to="/" class="enlace">Seguridad</router-link>
@@ -26,7 +26,7 @@
           <router-link to="/" class="enlace">T&C</router-link>
         </li>
         <li class="nav-item nav-link">
-          <router-link to="/" class="enlace sesion">Iniciar sesión</router-link>
+          <router-link to="/" class="enlace sesion">Iniciarsesión</router-link>
         </li>
       </ul>
     </div>
@@ -41,12 +41,6 @@
   </div>
 </nav>
 <div class="collapse" id="collapseExample">
-  <div class="card card-body maximo" style="border:none;">
-    <div class="input-group">
-  <input type="text" class="form-control" placeholder="Lo que menos te imaginas" aria-label="Recipient's username" aria-describedby="button-addon2">
-  <button class="btn" type="button" id="button-addon2">Buscar</button>
-</div>
-  </div>
 </div>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -136,8 +130,8 @@ max-width: 1200px;
 .buscador {
 margin: 0 15px;
 padding: 5px 25px;
-border-radius: 50px;
 background-color: var(--gris);
+border-bottom: solid 1px var(--naranja);
 }
 
 .buscador input {
@@ -148,11 +142,11 @@ outline: none;
 .buscador button {
 border: none;
 color: #ff7465;
+transition: all .3s;
 }
 
 .buscador button:hover {
-color: white;
-background-color: #ff7465;
+transform:rotateX(50);
 }
 </style>
 
