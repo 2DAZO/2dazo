@@ -1,18 +1,16 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light maximo">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light flex-column">
+  <div class="container-fluid maximo">
     <a class="navbar-brand" href="#">
       <img src="https://res.cloudinary.com/segundazo/image/upload/v1628141649/LOGO_Mesa_de_trabajo_1_fwfg2h.png" alt=""  height="30">
     </a>
-    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Ingresa tu ciudad
-    </button>
-     <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    <button class="btn margen boton " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
 </svg>
+¿Qué estás buscando?
   </button>
-    <div class="collapse navbar-collapse justify-content-end order-1" id="navbarNav">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
         <li class="nav-item nav-link">
           <router-link to="/" class="enlace">Inicio</router-link>
@@ -38,12 +36,17 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
+  <div class="container-fluid maximo">
+      <button type="button" class="btn margen" style="color:var(--gris-oscuro);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Ingresa tu ubicación
+    </button>
+  </div>
 </nav>
 <div class="collapse" id="collapseExample">
   <div class="card card-body maximo" style="border:none;">
     <div class="input-group">
-  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+  <input type="text" class="form-control" placeholder="Lo que menos te imaginas" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <button class="btn" type="button" id="button-addon2">Buscar</button>
 </div>
   </div>
 </div>
@@ -90,6 +93,10 @@ height: 25px;
 color: var(--naranja);
 }
 
+.margen{
+    margin: 0 15px;
+}
+
 .margenes{
     margin: 0 5px;
     color: var(--naranja);
@@ -104,6 +111,20 @@ color: var(--naranja);
 }
 
 .sesion:hover{
+    color: var(--blanco);
+    background: var(--naranja);
+    padding: 10px 15px;
+}
+
+.boton{color: var(--naranja);
+    background: var(--blanco);
+    padding: 10px 15px;
+    box-shadow: inset 0 0 0 1px var(--naranja);
+    border-radius: 50px;
+    transition: all .3s;
+}
+
+.boton:hover{
     color: var(--blanco);
     background: var(--naranja);
     padding: 10px 15px;
