@@ -25,7 +25,7 @@
     <div class="categorias">
       
     </div>
-    <div class="container justify-contenct-between row maximo-productos">
+    <div class="container justify-content-between row maximo-productos">
       <div class="card" style="width: 14rem;">
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
         <div class="card-body">
