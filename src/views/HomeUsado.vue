@@ -1,7 +1,7 @@
 <template>
   <div class="homeUsado">
     <Navegador></Navegador>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide carrusel-container" data-bs-ride="carousel">
       <div class="carousel-inner maximo">
         <div class="carousel-item active">
           <img src="https://http2.mlstatic.com/D_NQ_944252-MLA46967599466_082021-OO.webp" class="d-block w-100" alt="">
@@ -25,35 +25,12 @@
     <div class="categorias">
       
     </div>
-    <div class="container justify-content-between row maximo-productos">
-      <div class="card" style="width: 14rem;">
+    <div class="container justify-content-evenly row maximo-productos">
+      <div class="card border-0" style="width: 15rem;">
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text">PC Master Pro</p>
-        </div>
-      </div>
-      <div class="card" style="width: 14rem;">
-        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text">PC Master Pro</p>
-        </div>
-      </div>
-      <div class="card" style="width: 14rem;">
-        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text">PC Master Pro</p>
-        </div>
-      </div>
-      <div class="card" style="width: 14rem;">
-        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text">PC Master Pro</p>
-        </div>
-      </div>
-      <div class="card" style="width: 14rem;">
-        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text">PC Master Pro</p>
+        <div class="card-body d-flex flex-column justify-content-start align-items-start">
+          <p class="card-text"><strong>PC Master Pro</strong></p>
+          <p>Precio negociable: <strong>SI</strong></p>
         </div>
       </div>
     </div>
@@ -74,6 +51,10 @@ export default {
 };
 </script>
 <style scoped>
+
+.carrusel-container {
+  margin-bottom: 20px;
+}
 
 .maximo {
 margin: auto;
