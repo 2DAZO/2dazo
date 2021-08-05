@@ -4,17 +4,16 @@
     <a class="navbar-brand" href="#">
       <img src="https://res.cloudinary.com/segundazo/image/upload/v1628141649/LOGO_Mesa_de_trabajo_1_fwfg2h.png" alt=""  height="30">
     </a>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav align-items-center">
         <li class="nav-item nav-link">
-          <router-link to="/" class="enlace">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door margenes" viewBox="0 0 16 16">
-                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-            </svg>
-            Inicio</router-link>
+          <router-link to="/" class="enlace">Inicio</router-link>
         </li>
         <li class="nav-item nav-link">
           <router-link to="/" class="enlace">Categorías</router-link>
@@ -35,6 +34,23 @@
     </div>
   </div>
 </nav>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 </template>
 
 
@@ -53,12 +69,34 @@ height: 25px;
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: var(--negro);
+    color: var(--gris-oscuro);
+    transition:  all .3s;
+}
+
+.enlace:hover{
+color: var(--naranja);
 }
 
 .margenes{
     margin: 0 5px;
     color: var(--naranja);
+}
+
+.sesion{
+    color: var(--blanco);
+    background: var(--naranja);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.sesion:hover{
+    color: var(--naranja);
+    background: var(--blanco);
+    padding: 10px 15px;
+    box-shadow: inset 0 0 0 1px var(--naranja);
+    border-radius: 50px;
+
 }
 
 .maximo {

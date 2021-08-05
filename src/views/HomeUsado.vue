@@ -1,10 +1,6 @@
 <template>
   <div class="homeUsado">
     <Navegador></Navegador>
-    <div class="botones-container">
-      <router-link to="/nuevo">Nuevo</router-link> |
-      <router-link to="/vender">Vender</router-link>
-    </div>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner maximo">
         <div class="carousel-item active">
@@ -46,7 +42,7 @@ export default {
 
 .maximo {
 margin: auto;
-max-width: 1200px;
+max-width: 1600px;
 }
 
 </style>
