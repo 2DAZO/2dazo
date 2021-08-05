@@ -5,28 +5,23 @@
       <router-link to="/nuevo">Nuevo</router-link> |
       <router-link to="/vender">Vender</router-link>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="" class="d-block w-100" alt="">
+          <img src="https://images.theconversation.com/files/269676/original/file-20190416-147508-gc6092.jpg?ixlib=rb-1.1.0&rect=0%2C414%2C2471%2C1233&q=45&auto=format&w=1356&h=668&fit=crop" class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
-          <img src="" class="d-block w-100" alt="">
+          <img src="https://images.theconversation.com/files/269676/original/file-20190416-147508-gc6092.jpg?ixlib=rb-1.1.0&rect=0%2C414%2C2471%2C1233&q=45&auto=format&w=1356&h=668&fit=crop" class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
-          <img src="" class="d-block w-100" alt="">
+          <img src="https://images.theconversation.com/files/269676/original/file-20190416-147508-gc6092.jpg?ixlib=rb-1.1.0&rect=0%2C414%2C2471%2C1233&q=45&auto=format&w=1356&h=668&fit=crop" class="d-block w-100" alt="">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -48,19 +43,5 @@ export default {
 };
 </script>
 <style scoped>
-.botones-container {
-  margin-bottom: 10px;
-}
-
-.tamano{
-  width: 250px;
-  margin: 0 20px;
-}
-
-.categorias-container {
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-}
 
 </style>
