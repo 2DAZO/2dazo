@@ -1,6 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light flex-column">
-  <div class="container-fluid maximo">
+  <div class="container-fluid maximo pb-2" style="
+    border-bottom: 1px solid var(--gris-claro);">
     <a class="navbar-brand" href="#">
       <img src="https://res.cloudinary.com/segundazo/image/upload/v1628141649/LOGO_Mesa_de_trabajo_1_fwfg2h.png" alt=""  height="25">
     </a>
