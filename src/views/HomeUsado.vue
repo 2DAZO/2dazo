@@ -22,6 +22,41 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <div class="categorias">
+      
+    </div>
+    <div class="container justify-content-between row maximo-productos">
+      <div class="card" style="width: 14rem;">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text">PC Master Pro</p>
+        </div>
+      </div>
+      <div class="card" style="width: 14rem;">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text">PC Master Pro</p>
+        </div>
+      </div>
+      <div class="card" style="width: 14rem;">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text">PC Master Pro</p>
+        </div>
+      </div>
+      <div class="card" style="width: 14rem;">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text">PC Master Pro</p>
+        </div>
+      </div>
+      <div class="card" style="width: 14rem;">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text">PC Master Pro</p>
+        </div>
+      </div>
+    </div>
   </div>
 
 </template>
@@ -43,6 +78,10 @@ export default {
 .maximo {
 margin: auto;
 max-width: 1600px;
+}
+.maximo-productos {
+margin: auto;
+max-width: 1200px;
 }
 
 </style>
