@@ -4,7 +4,6 @@
     <div class="banner">
     </div>
     </div>
-
 </template>
 
 <script>
