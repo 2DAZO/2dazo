@@ -12,6 +12,15 @@
   text-align: center;
   color: #2c3e50;
 }
+
+ :root {
+    --naranja: #FF7465;
+    --verde: #25D366;
+    --azul: #477CFF;
+    --gris: #EAEAE9;
+    --negro: #000;
+}
+
 .app {
   padding: 10px;
 }
