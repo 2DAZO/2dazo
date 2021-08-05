@@ -1,43 +1,36 @@
 <template>
   <div class="homeUsado">
-    <HeaderUsados></HeaderUsados>
+    <Navegador></Navegador>
     <div class="botones-container">
       <router-link to="/nuevo">Nuevo</router-link> |
       <router-link to="/vender">Vender</router-link>
     </div>
     <div class="banner">
+    </div>
+    </div>
 
-    </div>
-    <div class="categorias-container">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <div class="ventas-container">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HeaderUsados from "@/components/HeaderUsados.vue";
+
+import Navegador from '../components/Navegador.vue';
 
 export default {
-  name: "Home",
+  name: "HomeUsado",
   components: {
-    HeaderUsados,
+    Navegador,
   },
 };
 </script>
 <style scoped>
 .botones-container {
   margin-bottom: 10px;
+}
+
+.tamano{
+  width: 250px;
+  margin: 0 20px;
 }
 
 .banner {
