@@ -82,21 +82,18 @@ color: var(--naranja);
     color: var(--naranja);
 }
 
-.sesion{
-    color: var(--blanco);
-    background: var(--naranja);
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: all .3s;
-}
-
-.sesion:hover{
-    color: var(--naranja);
+.sesion{color: var(--naranja);
     background: var(--blanco);
     padding: 10px 15px;
     box-shadow: inset 0 0 0 1px var(--naranja);
     border-radius: 50px;
+    transition: all .3s;
+}
 
+.sesion:hover{
+    color: var(--blanco);
+    background: var(--naranja);
+    padding: 10px 15px;
 }
 
 .maximo {
