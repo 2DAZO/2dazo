@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeUsado from "../views/HomeUsado.vue";
 import HomeNuevo from "../views/HomeNuevo.vue";
 import VenderUsados from "../views/VenderUsados";
-
 const routes = [{
         path: "/",
         name: "HomeUsado",
