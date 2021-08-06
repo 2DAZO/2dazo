@@ -26,11 +26,15 @@
       
     </div>
     <div class="container justify-content-evenly row maximo-productos">
-      <div class="card border-0" style="width: 15rem;">
+      <div class="card border-0 text-start" style="width: 15rem;">
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
         <div class="card-body d-flex flex-column justify-content-start align-items-start">
           <p class="card-text"><strong>PC Master Pro</strong></p>
-          <p>Precio negociable: <strong>SI</strong></p>
+          <p class="">Precio negociable: <strong>Si</strong> </p>
+          <div>
+            <p>$ 1'700.000</p>
+            <p></p>
+          </div>
         </div>
       </div>
     </div>
