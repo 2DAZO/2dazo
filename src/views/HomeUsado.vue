@@ -327,6 +327,7 @@
         </div>
       </div>
     </div>
+    <Footer></Footer>
   </div>
 
 </template>
@@ -335,11 +336,13 @@
 // @ is an alias to /src
 
 import Navegador from '../components/Navegador.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
   name: "HomeUsado",
   components: {
     Navegador,
+    Footer,
   },
 };
 </script>
