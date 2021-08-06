@@ -19,7 +19,7 @@
         <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle enlace" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categorías</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><router-link to="/HomeNuevo" class="dropdown-item">Hogar</router-link></li>
       <li><a class="dropdown-item" href="#">Another action</a></li>
       <li><a class="dropdown-item" href="#">Something else here</a></li>
       <li><hr class="dropdown-divider"></li>
@@ -100,6 +100,10 @@ height: 25px;
     transition:  all .3s;
 }
 
+/* .enlace:focus{
+  color: var(--naranja) !important;
+} */
+
 .ubicacion{
     font-size: 15px;
     color: var(--gris-oscuro);
@@ -125,7 +129,8 @@ color: var(--naranja);
     color: var(--naranja);
 }
 
-.sesion{color: var(--naranja);
+.sesion{
+    color: var(--naranja);
     background: var(--blanco);
     padding: 10px 15px;
     box-shadow: inset 0 0 0 1px var(--naranja);
