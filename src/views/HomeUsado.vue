@@ -26,45 +26,131 @@
 
     <div class="categorias">
       <div class="container-fluid">
-    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
-			
-			<div class="col-2">
-				<div class="card card-block card-1"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-2"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-3"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-4"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-5"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-6"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-7"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-8"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-9"></div>
-			</div>
-			<div class="col-5">
-				<div class="card card-block card-10"></div>
-			</div>
-    </div>
-</div>
+        <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 ps-2" style="::-webkit-scrollbar {display: none;}">
+			    <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+          <div class="col">
+			    	<div class="card card-block rounded-pill">
+              <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon margenr" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg></div>
+              <div><h2>Sex Shop</h2></div>
+            </div>
+			    </div>
+        </div>
+      </div>
     </div>
 
 
     <div class="container justify-content-evenly row maximo-productos">
-      <div class="card border-0 text-start" style="min-width: 300px; max-width: 350px; width:100%;">
+      <div class="card border-0 text-start producto" >
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
         <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
           <div>
@@ -86,7 +172,7 @@
           </div>
         </div>
       </div>
-      <div class="card border-0 text-start" style="min-width: 300px; max-width: 350px; width:100%;">
+      <div class="card border-0 text-start producto" >
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
         <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
           <div>
@@ -108,7 +194,249 @@
           </div>
         </div>
       </div>
-      <div class="card border-0 text-start" style="min-width: 300px; max-width: 350px; width:100%;">
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
+        <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
+          <div>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p style="font-weight:900;">$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p style="margin-bottom:0;">Estado</p>
+              <p style="font-weight:900;">10/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0 text-start producto">
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
         <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
           <div>
@@ -149,8 +477,26 @@ export default {
 </script>
 <style scoped>
 
+h2{
+  font-size: 16px;
+  margin: 0;
+}
+
+.margenr{
+  margin-right: 5px;
+}
+
+.col{
+  padding: 0 0 0 10px;
+}
+
 .carrusel-container {
   margin-bottom: 20px;
+}
+
+.producto{
+   max-width: 250px;
+   width:100%;
 }
 
 .maximo {
@@ -183,67 +529,19 @@ max-width: 1200px;
 	overflow-x: auto;
 }
 
+
+
 .card-block{
-	height: 85px;
-	background-color: #fff;
-	border: none;
-	background-position: center;
-	background-size: cover;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  width: max-content;
+  padding: 5px 15px;
+	background-color: var(--blanco);
+  border: 1px solid var(--naranja);
 	transition: all 0.2s ease-in-out !important;
 	border-radius: 24px;
 }
-
-.card-1{
-	background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-}
-
-.card-2{
-	background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-}
-
-.card-3{
-	background-color: #00DBDE;
-background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-}
-
-.card-4{
-	background-color: #FBAB7E;
-background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-}
-
-.card-5{
-	background-color: #85FFBD;
-background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-}
-
-.card-6{
-	background-color: #FA8BFF;
-background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-}
-
-.card-7{
-	background-color: #FA8BFF;
-background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-}
-
-.card-8{
-	background-color: #FBDA61;
-background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
-}
-
-.card-9{
-	background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-}
-
-.card-10{
-	background-color: #FF3CAC;
-background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-
-}
-
 }
 
 
