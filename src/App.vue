@@ -18,10 +18,21 @@
     --naranja: #FF7465;
     --verde: #25D366;
     --azul: #477CFF;
-    --gris-claro: #EAEAE9;
+    --gris-claro: #fafafa;
     --gris-oscuro: rgb(90, 90, 90);
     --negro: rgb(44, 44, 44);
 }
+
+.icon{
+  height: 25px;
+  color: var(--naranja);
+}
+
+.icon-small{
+  height: 15px;
+  color: var(--naranja);
+}
+
 
 .app {
   padding: 5px 0 0 0;

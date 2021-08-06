@@ -1,13 +1,15 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light flex-column">
   <div class="container-fluid maximo pb-2" style="
-    border-bottom: 1px solid var(--gris-claro);">
-    <a class="navbar-brand" href="#">
+    border-bottom: 1px solid var(--gris-claro); flex-wrap:nowrap;">
+    <a class="navbar-brand" style="margin:0;" href="#">
       <img src="https://res.cloudinary.com/segundazo/image/upload/v1628141649/LOGO_Mesa_de_trabajo_1_fwfg2h.png" alt=""  height="25">
     </a>
     <div class="input-group buscador">
   <input type="text" class="form-control" placeholder="Lo que menos te imaginas" aria-label="Recipient's username" aria-describedby="button-addon2">
-  <button class="btn" type="button" id="button-addon2">Buscar</button>
+  <button class="btn" type="button" id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon-small" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg></button>
 </div>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
@@ -31,19 +33,19 @@
         </li>
       </ul>
     </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+</svg>
     </button>
   </div>
   <div class="container-fluid maximo pt-2 pb-2">
-      <button type="button" class="btn margen" style="color:var(--gris-oscuro);" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      <button type="button" class="btn ubicacion" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 </svg>  Ingresa tu ubicación
     </button>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-primary">Primary</button>
   </div>
 </nav>
 <div class="collapse" id="collapseExample">
@@ -80,11 +82,24 @@ height: 25px;
 }
 
 .enlace{
+    font-size: 15px;
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--gris-oscuro);
     transition:  all .3s;
+}
+
+.ubicacion{
+    font-size: 15px;
+    color: var(--gris-oscuro);
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.ubicacion svg{
+  margin-right: 5px;
 }
 
 .enlace:hover{
@@ -134,15 +149,15 @@ max-width: 1200px;
 }
 
 .buscador {
-margin: 0 15px;
-padding: 5px 25px;
-background-color: var(--gris);
+margin: 0 10px;
+background-color: var(--gris-claro);
 border-bottom: solid 1px var(--naranja);
 }
 
 .buscador input {
 border: none;
 outline: none;
+background-color: #fff0;
 }
 
 .buscador button {
@@ -151,8 +166,17 @@ color: #ff7465;
 transition: all .3s;
 }
 
-.buscador button:hover {
-transform:rotateX(50);
+
+.menu{
+  padding: 0;
+  border-color: rgb(0 0 0 / 0%) !important;
 }
+
+.menu svg{
+  height: 25px;
+    color: var(--naranja);
+}
+
+
 </style>
 
