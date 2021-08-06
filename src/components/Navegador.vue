@@ -3,7 +3,7 @@
   <div class="container-fluid maximo pb-2" style="
     border-bottom: 1px solid var(--gris-claro); flex-wrap:nowrap;">
     <a class="navbar-brand" style="margin:0;" href="#">
-      <img src="https://res.cloudinary.com/segundazo/image/upload/v1628141649/LOGO_Mesa_de_trabajo_1_fwfg2h.png" alt=""  height="25">
+      <img src="https://res.cloudinary.com/segundazo/image/upload/v1628277929/LOGO_Mesa_de_trabajo_1_orzv3e.png" alt=""  height="50">
     </a>
     <div class="input-group buscador">
   <input type="text" class="form-control" placeholder="Lo que menos te imaginas" aria-label="Recipient's username" aria-describedby="button-addon2">
@@ -11,6 +11,11 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 </svg></button>
 </div>
+<button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+</svg>
+    </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
         <li class="nav-item nav-link">
@@ -40,11 +45,6 @@
         </li>
       </ul>
     </div>
-    <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-</svg>
-    </button>
   </div>
   <div class="container-fluid maximo pt-2 pb-2">
       <button type="button" class="btn ubicacion" data-bs-toggle="modal" data-bs-target="#exampleModal">
