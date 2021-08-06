@@ -70,7 +70,7 @@
           <div>
             <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
           </div>
-          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+          <div class="" style="display:grid; grid-template-columns: 1fr auto; margin-top:10px; width:100%;">
             <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
               <div style="font-size:12px;">
                 <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
@@ -92,7 +92,7 @@
           <div>
             <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
           </div>
-          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+          <div class="" style="display:grid; grid-template-columns: 1fr auto; margin-top:10px; width:100%;">
             <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
               <div style="font-size:12px;">
                 <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
@@ -114,7 +114,7 @@
           <div>
             <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
           </div>
-          <div class="" style="display:grid; grid-template-columns: 1fr 1fr; margin-top:10px;">
+          <div class="" style="display:grid; grid-template-columns: 1fr auto; margin-top:10px; width:100%;">
             <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
               <div style="font-size:12px;">
                 <p style="margin-bottom:0;">Precio negociable: <strong>Si</strong></p>
