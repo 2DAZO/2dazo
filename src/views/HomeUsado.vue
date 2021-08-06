@@ -26,14 +26,25 @@
       
     </div>
     <div class="container justify-content-evenly row maximo-productos">
-      <div class="card border-0 text-start" style="width: 15rem;">
+      <div class="card border-0 text-start" style="max-width: 300px;">
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
-        <div class="card-body d-flex flex-column justify-content-start align-items-start">
-          <p class="card-text"><strong>PC Master Pro</strong></p>
-          <p class="">Precio negociable: <strong>Si</strong> </p>
+        <div class="card-body d-flex flex-column justify-content-start align-items-start" style="display:grid;">
           <div>
-            <p>$ 1'700.000</p>
-            <p></p>
+            <p class="card-text nombre-producto"><strong>PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro</strong></p>
+          </div>
+          <div class="" style="display:grid; grid-template-columns: 1fr 1fr;">
+            <div class="lh-sm" style="display: flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px;">
+                <p>Precio negociable: <strong>Si</strong></p>
+              </div>
+              <div>
+                <p>$ 1'700.000</p>
+              </div>
+            </div>
+            <div class="lh-sm" style="text-align: end; display: flex; flex-direction:column; justify-content:center;">
+              <p>Estado</p>
+              <p>10/10</p>
+            </div>
           </div>
         </div>
       </div>
@@ -67,6 +78,12 @@ max-width: 1600px;
 .maximo-productos {
 margin: auto;
 max-width: 1200px;
+}
+.nombre-producto {
+  display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 </style>
