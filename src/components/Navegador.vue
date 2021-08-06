@@ -1,12 +1,15 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light flex-column">
-  <div class="container-fluid maximo">
-    <a class="navbar-brand" href="#">
+  <div class="container-fluid maximo pb-2" style="
+    border-bottom: 1px solid var(--gris-claro); flex-wrap:nowrap;">
+    <a class="navbar-brand" style="margin:0;" href="#">
       <img src="https://res.cloudinary.com/segundazo/image/upload/v1628141649/LOGO_Mesa_de_trabajo_1_fwfg2h.png" alt=""  height="25">
     </a>
-    <div class="input-group">
+    <div class="input-group buscador">
   <input type="text" class="form-control" placeholder="Lo que menos te imaginas" aria-label="Recipient's username" aria-describedby="button-addon2">
-  <button class="btn" type="button" id="button-addon2">Buscar</button>
+  <button class="btn" type="button" id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon-small" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg></button>
 </div>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
@@ -17,7 +20,7 @@
           <router-link to="/" class="enlace">Categorías</router-link>
         </li>
         <li class="nav-item nav-link">
-          <router-link to="/" class="enlace">Lo más TOP</router-link>
+          <router-link to="/" class="enlace">LomásTOP</router-link>
         </li>
         <li class="nav-item nav-link">
           <router-link to="/" class="enlace">Seguridad</router-link>
@@ -26,27 +29,29 @@
           <router-link to="/" class="enlace">T&C</router-link>
         </li>
         <li class="nav-item nav-link">
-          <router-link to="/" class="enlace sesion">Iniciar sesión</router-link>
+          <router-link to="/" class="enlace sesion">Iniciarsesión</router-link>
         </li>
       </ul>
     </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+</svg>
     </button>
   </div>
-  <div class="container-fluid maximo">
-      <button type="button" class="btn margen" style="color:var(--gris-oscuro);" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Ingresa tu ubicación
-    </button>
+  <div class="container-fluid maximo pt-2 pb-2">
+      <button type="button" class="btn ubicacion" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>  Ingresa tu ubicación
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icon-small" style="margin-left: 5px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+</svg>
+</button>
   </div>
 </nav>
 <div class="collapse" id="collapseExample">
-  <div class="card card-body maximo" style="border:none;">
-    <div class="input-group">
-  <input type="text" class="form-control" placeholder="Lo que menos te imaginas" aria-label="Recipient's username" aria-describedby="button-addon2">
-  <button class="btn" type="button" id="button-addon2">Buscar</button>
-</div>
-  </div>
 </div>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -80,11 +85,24 @@ height: 25px;
 }
 
 .enlace{
+    font-size: 15px;
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--gris-oscuro);
     transition:  all .3s;
+}
+
+.ubicacion{
+    font-size: 15px;
+    color: var(--gris-oscuro);
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.ubicacion svg{
+  margin-right: 5px;
 }
 
 .enlace:hover{
@@ -134,25 +152,34 @@ max-width: 1200px;
 }
 
 .buscador {
-margin: 0 15px;
-padding: 5px 25px;
-border-radius: 50px;
-background-color: var(--gris);
+margin: 0 10px;
+background-color: var(--gris-claro);
+border-bottom: solid 1px var(--naranja);
 }
 
 .buscador input {
 border: none;
 outline: none;
+background-color: #fff0;
 }
 
 .buscador button {
 border: none;
 color: #ff7465;
+transition: all .3s;
 }
 
-.buscador button:hover {
-color: white;
-background-color: #ff7465;
+
+.menu{
+  padding: 0;
+  border-color: rgb(0 0 0 / 0%) !important;
 }
+
+.menu svg{
+  height: 25px;
+    color: var(--naranja);
+}
+
+
 </style>
 
