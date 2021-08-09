@@ -29,7 +29,7 @@
 }
 
 .icon-small{
-  height: 15px;
+  height: 20px;
   color: var(--naranja);
 }
 
