@@ -103,7 +103,7 @@
             Categorías</a>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace">Lo más TOP</router-link>
+            <router-link to="/" class="enlace d-none d-xl-block">Lo más TOP</router-link>
           </li>
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace">Seguridad</router-link>
