@@ -99,8 +99,11 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav align-items-center">
           <li class="nav-item dropdown">
-            <a class="enlace" data-bs-toggle="collapse" href="#collapsecategorias" role="button" aria-expanded="false" aria-controls="collapsecategorias">
+            <a to="/" class="enlace" data-bs-toggle="collapse" href="#collapsecategorias" role="button" aria-expanded="false" aria-controls="collapsecategorias">
             Categorías</a>
+          </li>
+          <li>
+            <router-link to="/categorias">categoriasPrueba</router-link>
           </li>
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace d-none d-xl-block">Lo más TOP</router-link>
