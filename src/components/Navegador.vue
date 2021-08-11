@@ -99,8 +99,10 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav align-items-center">
           <li class="nav-item dropdown">
-            <a to="/" class="enlace" data-bs-toggle="collapse" href="#collapsecategorias" role="button" aria-expanded="false" aria-controls="collapsecategorias">
-            Categorías</a>
+            <a to="/" class="d-flex categorias rounded" data-bs-toggle="collapse" href="#collapsecategorias" role="button" aria-expanded="false" aria-controls="collapsecategorias">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6  me-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>Categorías</a>
           </li>
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace d-none d-xl-block">Lo más TOP</router-link>
@@ -116,7 +118,7 @@
       <div class="input-group buscador">
         <input
           type="text"
-          class="form-control"
+          class="form-control texto"
           placeholder="Lo que menos te imaginas"
           aria-label="Recipient's username"
           aria-describedby="button-addon2"
@@ -200,9 +202,23 @@ export default {
   height: 25px;
 }
 
+.categorias{
+  padding: 10px 30px;
+  align-items: center;
+  background: var(--naranja);
+  color: var(--blanco);
+  text-decoration: none;
+}
+
+.categorias svg{
+  height: 20px;
+  color: var(--blanco);
+}
+
 .enlace {
   font-size: 15px;
   display: flex;
+  padding: 0 10px;
   width: max-content;
   align-items: center;
   text-decoration: none;
@@ -309,7 +325,7 @@ export default {
 .buscador {
   margin: 0 0 0 10px;
   background-color: var(--gris-claro);
-  border-bottom: solid 1px var(--naranja);
+  border-radius: 10px ;
 }
 
 .buscador input {
