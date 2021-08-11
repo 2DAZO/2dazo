@@ -61,7 +61,7 @@
       
       <div>
         <button type="button" class="btn btn-primary mx-3 botonrelleno">Vende <span>con nosotros</span></button>
-      <button type="button" class="btn btn-outline-primary botonbordeado">Inicia sesión</button>
+      <button type="button" class="btn btn-outline-primary botonbordeado">Ingresa</button>
       </div>
       
 
@@ -115,7 +115,7 @@
           </li>
         </ul>
       </div>
-      <div class="input-group buscador">
+      <div class="input-group buscador rounded">
         <input
           type="text"
           class="form-control texto"
@@ -235,7 +235,7 @@ export default {
   color: var(--gris-oscuro);
   display: flex;
   align-items: center;
-  border-color: var(--naranja);
+  border-color: none;
 }
 
 .ubicacion:hover{
@@ -325,7 +325,6 @@ export default {
 .buscador {
   margin: 0 0 0 10px;
   background-color: var(--gris-claro);
-  border-radius: 10px ;
 }
 
 .buscador input {

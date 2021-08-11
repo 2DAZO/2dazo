@@ -1,5 +1,5 @@
 <template >
-<div class="row contenedor ">
+<div class="row contenedor mt-2">
         <div id="carouselExampleIndicators" class="carousel slide col-8 me-2 rounded-3" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
