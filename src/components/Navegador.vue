@@ -56,7 +56,7 @@
         </svg>
       </button>
       <router-link  to="/HomeNuevo" class="enlace">
-        <img src="https://http2.mlstatic.com/D_NQ_725230-MLA46947832524_082021-OO.webp" alt="Vender" style="max-height:32px;">
+        <button type="button" class="btn btn-primary">Compra productos nuevos</button>
       </router-link>
       
       <div>
