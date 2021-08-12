@@ -2,7 +2,10 @@
   <div class="homeUsado">
     <Navegador></Navegador>
     <Banner></Banner>
-    <Categorias></Categorias>
+
+
+    <div class="container">
+      <Categorias></Categorias>
     <div class="container justify-content-evenly row maximo-productos">
       <div class="card border-0 text-start producto" >
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" class="card-img-top" alt="">
@@ -27,8 +30,8 @@
         </div>
       </div>
     </div>
+    </div>
   </div>
-
 </template>
 
 <script>

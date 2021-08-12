@@ -1,11 +1,11 @@
 <template >
 <div class="row contenedor mt-2">
-        <div id="carouselExampleIndicators" class="carousel slide col-8 me-2 rounded-3" data-bs-ride="carousel">
+        <div id="bannerpublicitarios" class="carousel slide col-8 me-2 rounded-3" data-bs-ride="carousel">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+        <button type="button" data-bs-target="#bannerpublicitarios" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
         </button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#bannerpublicitarios" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#bannerpublicitarios" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
         <a class="carousel-item active rounded-3" href="https://www.facebook.com/villavoalcaldia">
@@ -18,11 +18,11 @@
         <img src="https://d2z0k43lzfi12d.cloudfront.net/blog/vcdn332/wp-content/uploads/2021/03/blog-banner_solarboost_1220x550_es.jpg.webp" class="d-block w-100 rounded-3" alt="Foto">
         </a>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#bannerpublicitarios" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#bannerpublicitarios" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
