@@ -8,15 +8,15 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-        <div class="carousel-item active rounded-3">
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/63b0a657792295.59e4652eb2e41.jpg" class="d-block w-100 rounded-3 " alt="Foto">
-        </div>
-        <div class="carousel-item ounded-3">
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/63b0a657792295.59e4652eb2e41.jpg" class="d-block w-100 rounded-3" alt="Foto">
-        </div>
-        <div class="carousel-item ounded-3">
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/63b0a657792295.59e4652eb2e41.jpg" class="d-block w-100 rounded-3" alt="Foto">
-        </div>
+        <a class="carousel-item active rounded-3" href="https://www.facebook.com/villavoalcaldia">
+        <img src="https://d2z0k43lzfi12d.cloudfront.net/blog/vcdn332/wp-content/uploads/2021/03/blog-banner_solarboost_1220x550_es.jpg.webp" class="d-block w-100 rounded-3 " alt="Foto">
+        </a>
+        <a class="carousel-item ounded-3">
+        <img src="https://d2z0k43lzfi12d.cloudfront.net/blog/vcdn332/wp-content/uploads/2021/03/blog-banner_solarboost_1220x550_es.jpg.webp" class="d-block w-100 rounded-3" alt="Foto">
+        </a>
+        <a class="carousel-item ounded-3">
+        <img src="https://d2z0k43lzfi12d.cloudfront.net/blog/vcdn332/wp-content/uploads/2021/03/blog-banner_solarboost_1220x550_es.jpg.webp" class="d-block w-100 rounded-3" alt="Foto">
+        </a>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -28,7 +28,7 @@
     </button>
     </div>
 
-    <a class=" col -4 info rounded-3 me-3 position-relative cuadro-info">
+    <a class=" col -4 info rounded-3 me-3 position-relative cuadro-info" href="https://www.w3schools.com/jsref/jsref_splice.asp">
     </a>
 
 

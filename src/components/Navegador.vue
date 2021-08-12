@@ -235,7 +235,7 @@ export default {
   color: var(--gris-oscuro);
   display: flex;
   align-items: center;
-  border-color: none;
+  border: none;
 }
 
 .ubicacion:hover{
