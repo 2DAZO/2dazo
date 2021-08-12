@@ -244,13 +244,17 @@ margin: 0;
 .cuadro {
 margin: 0 5px;
 padding: 20px 60px;
-box-shadow: 11px 11px 22px #e9e9e9;
+background: var(--gris-claro);
+box-shadow: 11px 11px 22px #afafaf2d;
+filter: blur(.5px);
 transition: all .3s;
 }
 
 .cuadro:hover {
+filter: blur(0);
+background: var(--blanco);
 transform: scale(1.1);
-box-shadow: 11px 11px 22px #bdbdbd;
+box-shadow: 11px 11px 22px #bdbdbd2d;
 }
 
 .icon-max {

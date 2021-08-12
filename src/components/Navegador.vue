@@ -143,9 +143,68 @@
     </div>
   </nav>
 
-  <div class="collapse" id="collapsecategorias">
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  <div class="collapse container" id="collapsecategorias">
+    <div class="row my-4">
+  <div class="col-4 ">
+    <ul>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+    </ul>
+  </div>
+  <div class="col-4">
+    <ul>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+    </ul>
+  </div>
+  <div class="col-4">
+    <ul>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+    </ul>
+  </div>
+  <div class="col-4">
+    <ul>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+    </ul>
+  </div>
+  <div class="col-4">
+    <ul>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+    </ul>
+  </div>
+  <div class="col-4">
+    <ul>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+    </ul>
+  </div>
   </div>
 </div>
 
