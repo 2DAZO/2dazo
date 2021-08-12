@@ -60,7 +60,7 @@
       </router-link>
       
       <div>
-        <button type="button" class="btn btn-primary mx-3 botonrelleno">Vende <span>con nosotros</span></button>
+        <button type="button" class="btn btn-primary mx-3 botonrelleno">Vende con nosotros</button>
       <button type="button" class="btn btn-outline-primary botonbordeado">Ingresa</button>
       </div>
       
@@ -208,6 +208,11 @@ export default {
   background: var(--naranja);
   color: var(--blanco);
   text-decoration: none;
+  transition: all .3s;
+}
+
+.categorias:hover{
+  transform: scale(1.05);
 }
 
 .categorias svg{
@@ -232,38 +237,43 @@ export default {
 
 .ubicacion {
   font-size: 15px;
-  color: var(--gris-oscuro);
+  color: var(--naranja);
   display: flex;
   align-items: center;
   border: none;
+  transition: all .3s;
 }
 
 .ubicacion:hover{
-  background-color: var(--naranja);
-  border-color: var(--naranja);
-}
+  color: var(--gris-oscuro);
+  background: none;
+  border: none;
+  transform: scale(1.1);
+} 
 
 .botonrelleno{
   color: var(--blanco);
   border-color: var(--naranja);
   background-color: var(--naranja);
+  transition: all .3s;
 }
 
 .botonrelleno:hover{
-  color: var(--gris-oscuro);
   border-color: var(--naranja);
-  background-color: var(--blanco);
+  background-color: var(--naranja);
+  transform: scale(1.1 );
 }
 
 .botonbordeado{
-  color: var(--naranaja);
-  border-color: var(--naranja);
+  color: var(--gris-oscuro);
+  border: none;
+  transition: all .3s;
 }
 
 .botonbordeado:hover{
-  border-color: var(--naranja);
-  color: var(--blanco);
-  background-color: var(--naranja);
+  transform: scale(1.1);
+  color: var(--gris-oscuro);
+  background: none;
 }
 
 .ubicacion svg {
@@ -271,11 +281,11 @@ export default {
 }
 
 .ubicacion:hover svg{
-  color: var(--blanco);
+  color: var(--naranja);
 }
 
 .enlace:hover {
-  color: var(--naranja);
+  transform: scale(1.1);
 }
 
 .margen {
