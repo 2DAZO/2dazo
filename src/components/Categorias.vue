@@ -245,7 +245,7 @@ margin: 0;
 margin: 0 5px;
 padding: 20px 60px;
 background: var(--gris-claro);
-box-shadow: 11px 11px 22px #afafaf2d;
+box-shadow: 11px 11px 22px #afafaf62;
 filter: blur(.5px);
 transition: all .3s;
 width: 19%;
@@ -255,7 +255,7 @@ width: 19%;
 filter: blur(0);
 background: var(--blanco);
 transform: scale(1.1);
-box-shadow: 11px 11px 22px #bdbdbd2d;
+box-shadow: 11px 11px 22px #bdbdbd49;
 }
 
 .icon-max {
