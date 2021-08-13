@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light flex-column">
     <div
-      class="container-fluid maximo pb-2"
+      class="container-fluid container pb-2"
      
     >
       <a class="navbar-brand" style="margin: 0" href="#">
@@ -95,7 +95,7 @@
     </div>
 
 
-    <div class="container-fluid maximo pt-2 pb-2">
+    <div class="container-fluid container pt-2 pb-2">
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav align-items-center">
           <li class="nav-item dropdown">
@@ -384,11 +384,6 @@ export default {
   color: var(--blanco);
   background: var(--naranja);
   padding: 10px 15px;
-}
-
-.maximo {
-  margin: auto;
-  max-width: 1200px;
 }
 
 .buscador {
