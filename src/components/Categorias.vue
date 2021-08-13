@@ -68,7 +68,7 @@
         </svg>
     </div>
     <div class="text-categoria">
-        <p>Sex Shop</p>
+        <p>Hogar</p>
     </div>
     </div>
     <div
@@ -104,7 +104,7 @@
         </svg>
     </div>
     <div class="text-categoria">
-        <p>Sex Shop</p>
+        <p>Hogar</p>
     </div>
     </div>
     <div
@@ -140,7 +140,7 @@
         </svg>
     </div>
     <div class="text-categoria">
-        <p>Sex Shop</p>
+        <p>Hogar</p>
     </div>
     </div>
     <div
@@ -176,7 +176,7 @@
         </svg>
     </div>
     <div class="text-categoria">
-        <p>Sex Shop</p>
+        <p>Hogar</p>
     </div>
     </div>
     <div
@@ -212,7 +212,7 @@
         </svg>
     </div>
     <div class="text-categoria">
-        <p>Sex Shop</p>
+        <p>Hogar</p>
     </div>
     </div>
 </div>
@@ -248,6 +248,7 @@ background: var(--gris-claro);
 box-shadow: 11px 11px 22px #afafaf2d;
 filter: blur(.5px);
 transition: all .3s;
+width: 19%;
 }
 
 .cuadro:hover {

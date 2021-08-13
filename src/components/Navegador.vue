@@ -115,11 +115,11 @@
           </li>
         </ul>
       </div>
-      <div class="input-group buscador rounded">
+      <div class="input-group buscador">
         <input
           type="text"
           class="form-control texto"
-          placeholder="Lo que menos te imaginas"
+          placeholder="Lo que quieras mi rey"
           aria-label="Recipient's username"
           aria-describedby="button-addon2"
         />
@@ -147,62 +147,62 @@
     <div class="row my-4">
   <div class="col-4 ">
     <ul>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
     </ul>
   </div>
   <div class="col-4">
     <ul>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
     </ul>
   </div>
   <div class="col-4">
     <ul>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
     </ul>
   </div>
   <div class="col-4">
     <ul>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
     </ul>
   </div>
   <div class="col-4">
     <ul>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
     </ul>
   </div>
   <div class="col-4">
     <ul>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
-      <li>hola</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
+      <li>Hogar</li>
     </ul>
   </div>
   </div>
@@ -394,6 +394,7 @@ export default {
 .buscador {
   margin: 0 0 0 10px;
   background-color: var(--gris-claro);
+  border-bottom: 1px solid var(--naranja);
 }
 
 .buscador input {
