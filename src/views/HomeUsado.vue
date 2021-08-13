@@ -3,9 +3,9 @@
     <Navegador></Navegador>
     <Banner></Banner>
     <div class="container">
-      <Categorias></Categorias>
+    <Categorias></Categorias>
+    <ListaProductos></ListaProductos>
     </div>
-    <listaProductos></listaProductos>
   </div>
 </template>
 
