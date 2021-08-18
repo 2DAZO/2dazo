@@ -18,7 +18,7 @@
     --blanco:#fff;
     --naranja: #FF7465;
     --verde: #25D366;
-    --azul: #477CFF;
+    --azul: #0d6efd;
     --gris-claro: #f8f8f8;
     --gris-oscuro: rgb(90, 90, 90);
     --negro: rgb(44, 44, 44);
