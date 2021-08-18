@@ -14,7 +14,7 @@
       <button
         type="button"
         class="btn btn btn-outline-primary ubicacion"
-        data-bs-toggle="modal"
+        data-bs-toggle="modal" 
         data-bs-target="#ubicacionModal"
       >
         <svg
