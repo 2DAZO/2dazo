@@ -2,7 +2,7 @@
   <div class="homeUsado">
     <Navegador></Navegador>
     <Banner></Banner>
-    <div class="container">
+    <div class="container-xxl">
     <Categorias></Categorias>
     <ListaProductos></ListaProductos>
     </div>

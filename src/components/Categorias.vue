@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column mt-5 mb-5 general">
+  <div class="d-flex flex-column mt-5 general">
     <div class="d-flex justify-content-between">
       <h2 class="titulo">Categorías destacadas</h2>
       <div class="flechas">
