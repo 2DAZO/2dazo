@@ -1,10 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light flex-column">
     <div
-      class="container-fluid container pb-2"
+      class="container-xxl pb-2"
      
     >
-      <a class="navbar-brand" style="margin: 0" href="#">
+      <a class="navbar-brand order-0" style="margin: 0" href="#">
         <img
           src="https://res.cloudinary.com/segundazo/image/upload/v1628277929/LOGO_Mesa_de_trabajo_1_orzv3e.png"
           alt=""
@@ -13,7 +13,7 @@
       </a>
       <button
         type="button"
-        class="btn btn btn-outline-primary ubicacion"
+        class="btn btn btn-outline-primary ubicacion order-1 order-lg-1"
         data-bs-toggle="modal" 
         data-bs-target="#ubicacionModal"
       >
@@ -55,19 +55,22 @@
           />
         </svg>
       </button>
-      <router-link  to="/HomeNuevo" class="enlace">
+      <router-link  to="/HomeNuevo" class="enlace order-6 order-lg-2">
         <button type="button" class="btn btn-primary">Compra productos nuevos</button>
       </router-link>
+
+      <router-link  to="/Home" class="enlace order-5 order-lg-3">
+        <button type="button" class="btn btn-primary">Vende con nosotros</button>
+      </router-link>
       
-      <div>
-        <button type="button" class="btn btn-primary mx-3 botonrelleno">Vende con nosotros</button>
-      <button type="button" class="btn btn-outline-primary botonbordeado">Ingresa</button>
-      </div>
+      <router-link to="/Home" class="enlace order-4 order-lg-4">
+      <button type="button" class="btn btn-outline-primary botonbordeado d-none d-lg-flex">Ingresa</button>
+      </router-link>
       
 
 
       <button
-        class="navbar-toggler menu"
+        class="navbar-toggler menu order-2"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -95,7 +98,7 @@
     </div>
 
 
-    <div class="container-fluid container pt-2 pb-2">
+    <div class="container-xxl pt-2 pb-2">
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav align-items-center">
           <li class="nav-item dropdown">
