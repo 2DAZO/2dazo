@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="row my-5 d-flex justify-content-evenly padre">
+    <div class="row my-5 d-flex justify-content-md-evenly padre">
       <div
         class="
           col-auto
@@ -270,9 +270,33 @@ box-shadow: 11px 11px 22px #bdbdbd49;
 }
 
 @media (max-width:850px) {
-  .padre{
+
+.cuadro{
+  padding: 10px 15px;
+  filter: none;
+  box-shadow: none;
+  background: var(--naranja);
+  width: auto;
+}
+
+.cuadro:hover {
+filter: blur(0);
+background: var(--blanco);
+transform: none;
+box-shadow: none;
+}
+
+.padre{
   flex-wrap: nowrap;
   overflow-x:scroll;
+  overflow-y: hidden;
+  padding-left: 10px ;
 }
+
+.padre svg{
+  display: none;
+}
+
+
 }
 </style>
