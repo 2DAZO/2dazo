@@ -1,6 +1,6 @@
 <template>
-<div class="row justify-content-center">
-	<Destacados></Destacados>
+<div class="row justify-content-center mt-4 mt-lg-0">
+	<Destacados ></Destacados>
 </div>
 </template>
 <script>

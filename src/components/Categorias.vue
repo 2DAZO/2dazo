@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column mt-5 general">
     <div class="d-flex justify-content-between">
-      <h2 class="titulo">Categorías destacadas</h2>
+      <h2 class="titulo text-start">Categorías destacadas</h2>
       <div class="flechas">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="row my-5 d-flex justify-content-evenly">
+    <div class="row my-5 d-flex justify-content-evenly padre">
       <div
         class="
           col-auto
@@ -222,7 +222,7 @@
 <style scoped>
 .titulo {
   width: max-content;
-  font-size: 25px;
+  font-size: 20px;
   color: var(--naranja);
   margin: 0;
 }
@@ -242,6 +242,7 @@
 }
 
 .cuadro {
+  display: inline-block;
 margin: 0 5px;
 padding: 20px 60px;
 background: var(--gris-claro);
@@ -266,5 +267,12 @@ box-shadow: 11px 11px 22px #bdbdbd49;
 .text-categoria p {
   color: var(--gris-oscuro);
   margin: 0;
+}
+
+@media (max-width:850px) {
+  .padre{
+  flex-wrap: nowrap;
+  overflow-x:scroll;
+}
 }
 </style>
