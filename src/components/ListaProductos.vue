@@ -1,4 +1,4 @@
-<template>
+L<template>
 	<div class="d-flex container justify-content-evenly">
 		<div class="container justify-content-evenly row maximo-productos">
 			<div class="card border-0 text-start producto" >

@@ -5,7 +5,7 @@
     <div class="container">
       <Categorias></Categorias>
     </div>
-    <listaProductos></listaProductos>
+    <ListaProductos></ListaProductos>
   </div>
 </template>
 
