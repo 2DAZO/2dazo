@@ -122,27 +122,16 @@ L<template>
 		</div>
 	</div>
 </template>
-
 <script>
+
+import Destacados from '../components/Destacados.vue';
+
+
 export default {
-  name: "ListaProductos",
+name: "ListaProductos",
+components:{
+Destacados,
+}
 };
 </script>
 
-<style scoped>
-.maximo-productos {
-margin: auto;
-max-width: 1200px;
-}
-.nombre-producto {
-  display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
-.producto{
-   max-width: 250px;
-   width:100%;
-}
-</style>

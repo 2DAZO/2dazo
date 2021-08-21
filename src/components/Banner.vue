@@ -1,6 +1,6 @@
 <template >
 <div class="row contenedor mt-2">
-        <div id="bannerpublicitarios" class="carousel slide col-8 me-2 rounded-3" data-bs-ride="carousel">
+        <div id="bannerpublicitarios" class="carousel slide col-12 col-md-8 me-2 rounded-3" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#bannerpublicitarios" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
         </button>
@@ -28,7 +28,7 @@
     </button>
     </div>
 
-    <a class=" col -4 info rounded-3 me-3 position-relative cuadro-info" href="https://www.w3schools.com/jsref/jsref_splice.asp">
+    <a class="col -4 info rounded-3 me-3 position-relative cuadro-info d-md-block d-none" href="https://www.w3schools.com/jsref/jsref_splice.asp">
     </a>
 
 
@@ -43,10 +43,6 @@
     max-width: 1400px;
     margin: auto;
     /* max-height: 320px; */
-}
-
-.info{
-    background-color: blue;
 }
 
 .cuadro-info{

@@ -1,19 +1,16 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light flex-column">
-    <div
-      class="container-fluid container pb-2"
-     
-    >
-      <a class="navbar-brand" style="margin: 0" href="#">
+    <div class="container-xxl pb-2">
+      <a class="navbar-brand order-0" style="margin: 0" href="#">
         <img
           src="https://res.cloudinary.com/segundazo/image/upload/v1628277929/LOGO_Mesa_de_trabajo_1_orzv3e.png"
           alt=""
-          height="50"
+          height="30"
         />
       </a>
       <button
         type="button"
-        class="btn btn btn-outline-primary ubicacion"
+        class="btn btn btn-outline-primary ubicacion order-1 order-lg-1"
         data-bs-toggle="modal"
         data-bs-target="#ubicacionModal"
       >
@@ -55,19 +52,48 @@
           />
         </svg>
       </button>
-      <router-link  to="/HomeNuevo" class="enlace">
-        <button type="button" class="btn btn-primary">Compra productos nuevos</button>
+
+    <div class="d-none d-lg-flex">
+      <router-link to="/HomeNuevo" class="enlace order-3 order-lg-2">
+        <button type="button" class="btn btn-primary">
+          Compra productos nuevos
+        </button>
       </router-link>
-      
-      <div>
-        <button type="button" class="btn btn-primary mx-3 botonrelleno">Vende con nosotros</button>
-      <button type="button" class="btn btn-outline-primary botonbordeado">Ingresa</button>
-      </div>
+
+      <router-link to="/Home" class="enlace order-5 order-lg-3">
+        <button type="button" class="btn vender">
+          Vende con nosotros
+        </button>
+      </router-link>
+    </div>
+
       
 
+      <router-link to="/Home" class="order-4 order-lg-4 sesion d-none d-lg-block" >
+        <button
+          type="button"
+          class="btn btn-outline-primary botonbordeado d-flex d-lg-flex align-items-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 icon-small me-2"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+            />
+          </svg>
+          <p class="m-0">Ingresar</p>
+        </button>
+      </router-link>
 
       <button
-        class="navbar-toggler menu"
+        class="navbar-toggler menu order-2"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -90,22 +116,61 @@
           />
         </svg>
       </button>
-
-
     </div>
 
+    <div class="d-flex d-lg-none order-3 order-lg-2 m-auto justify-content-center" style="width:100%;">
+        <router-link to="/HomeNuevo" class="enlace" style="width:50%;">
+        <button type="button" class="btn btn-primary nuevo" style="min-width:125px; width:100%">
+          Nuevo
+        </button>
+      </router-link>
 
-    <div class="container-fluid container pt-2 pb-2">
+      <router-link to="/Home" class="enlace order-5 order-lg-3" style="width:50%;">
+        <button type="button" class="btn vender" style="min-width:125px; width:100%">
+          Vender
+        </button>
+      </router-link>
+      </div>
+
+
+    <div class="container-xxl pt-2 pb-2">
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav align-items-center">
-          <li class="nav-item dropdown">
-            <a to="/" class="d-flex categorias rounded" data-bs-toggle="collapse" href="#collapsecategorias" role="button" aria-expanded="false" aria-controls="collapsecategorias">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6  me-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>Categorías</a>
+          <li class="nav-item dropdown d-none d-lg-block">
+            <a
+              to="/"
+              class="d-flex categorias rounded"
+              data-bs-toggle="collapse"
+              href="#collapsecategorias"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapsecategorias"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 me-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                /></svg
+              >Categorías</a
+            >
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace d-none d-xl-block">Lo más TOP</router-link>
+            <router-link to="/" class="enlace d-block d-lg-none"
+              >Categorías</router-link
+            >
+          </li>
+          <li class="nav-item nav-link">
+            <router-link to="/" class="enlace"
+              >Lo más TOP</router-link
+            >
           </li>
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace">Seguridad</router-link>
@@ -115,7 +180,7 @@
           </li>
         </ul>
       </div>
-      <div class="input-group buscador">
+      <div class="input-group buscador d-none d-lg-flex">
         <input
           type="text"
           class="form-control texto"
@@ -145,69 +210,68 @@
 
   <div class="collapse container" id="collapsecategorias">
     <div class="row my-4">
-  <div class="col-4 ">
-    <ul>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-    </ul>
+      <div class="col-4">
+        <ul>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+          <li>Hogar</li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <div class="col-4">
-    <ul>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-    </ul>
-  </div>
-  <div class="col-4">
-    <ul>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-    </ul>
-  </div>
-  <div class="col-4">
-    <ul>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-    </ul>
-  </div>
-  <div class="col-4">
-    <ul>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-    </ul>
-  </div>
-  <div class="col-4">
-    <ul>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-      <li>Hogar</li>
-    </ul>
-  </div>
-  </div>
-</div>
-
 
   <div class="collapse" id="collapseExample"></div>
   <div
@@ -261,20 +325,48 @@ export default {
   height: 25px;
 }
 
-.categorias{
+.nuevo{
+  align-items: center;
+  background: none;
+  border: 1px solid var(--azul);
+  color: var(--azul);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.vender {
+  align-items: center;
+  background: none;
+  border: 1px solid var(--verde);
+  color: var(--verde);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.vender:hover {
+  transform: scale(1.01);
+  color: var(--blanco)
+}
+
+.vender svg {
+  height: 20px;
+  color: var(--blanco);
+}
+
+.categorias {
   padding: 10px 30px;
   align-items: center;
   background: var(--naranja);
   color: var(--blanco);
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.categorias:hover{
+.categorias:hover {
   transform: scale(1.05);
 }
 
-.categorias svg{
+.categorias svg {
   height: 20px;
   color: var(--blanco);
 }
@@ -300,46 +392,46 @@ export default {
   display: flex;
   align-items: center;
   border: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.ubicacion:hover{
+.ubicacion:hover {
   color: var(--gris-oscuro);
   background: none;
   border: none;
   transform: scale(1.1);
-} 
+}
 
-.botonrelleno{
+.botonrelleno {
   color: var(--blanco);
   border-color: var(--naranja);
   background-color: var(--naranja);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.botonrelleno:hover{
+.botonrelleno:hover {
   border-color: var(--naranja);
   background-color: var(--naranja);
-  transform: scale(1.1 );
-}
-
-.botonbordeado{
-  color: var(--gris-oscuro);
-  border: none;
-  transition: all .3s;
-}
-
-.botonbordeado:hover{
   transform: scale(1.1);
-  color: var(--gris-oscuro);
-  background: none;
 }
+
+.botonbordeado {
+  color: var(--naranja);
+  border: none;
+  transition: all 0.3s;
+}
+
+.botonbordeado:hover {
+  background: none;
+  color: var(--naranja);
+}
+
 
 .ubicacion svg {
   margin: 0 5px;
 }
 
-.ubicacion:hover svg{
+.ubicacion:hover svg {
   color: var(--naranja);
 }
 
@@ -358,17 +450,15 @@ export default {
 
 .sesion {
   color: var(--naranja);
-  background: var(--blanco);
-  padding: 10px 15px;
+  text-decoration: none;
+  padding: 2px 5px;
   box-shadow: inset 0 0 0 1px var(--naranja);
-  border-radius: 50px;
-  transition: all 0.3s;
+  border-radius: 5px;
+  transition: all .3s;
 }
 
 .sesion:hover {
-  color: var(--blanco);
-  background: var(--naranja);
-  padding: 10px 15px;
+  transform:scale(1.1);
 }
 
 .boton {
