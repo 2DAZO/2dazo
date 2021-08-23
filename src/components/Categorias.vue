@@ -275,7 +275,8 @@ box-shadow: 11px 11px 22px #bdbdbd49;
   padding: 10px 15px;
   filter: none;
   box-shadow: none;
-  background: var(--naranja);
+  background: var(--blanco);
+  border: 1px solid var(--naranja);
   width: auto;
 }
 

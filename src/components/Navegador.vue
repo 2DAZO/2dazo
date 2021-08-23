@@ -53,14 +53,14 @@
         </svg>
       </button>
 
-    <div class="d-none d-lg-flex">
-      <router-link to="/HomeNuevo" class="enlace order-3 order-lg-2">
+    <div class="d-none d-lg-flex order-lg-2">
+      <router-link to="/HomeNuevo" class="enlace">
         <button type="button" class="btn btn-primary">
           Compra productos nuevos
         </button>
       </router-link>
 
-      <router-link to="/Home" class="enlace order-5 order-lg-3">
+      <router-link to="/Home" class="enlace">
         <button type="button" class="btn vender">
           Vende con nosotros
         </button>
