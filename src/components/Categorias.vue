@@ -276,7 +276,6 @@ box-shadow: 11px 11px 22px #bdbdbd49;
   filter: none;
   box-shadow: none;
   background: var(--blanco);
-  border: 1px solid var(--naranja);
   width: auto;
 }
 

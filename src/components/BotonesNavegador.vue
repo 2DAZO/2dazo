@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex d-lg-none order-3 order-lg-2 m-auto justify-content-center" style="width:100%;">
+    <div class="d-flex d-lg-none order-3 order-lg-2 m-auto justify-content-center mb-3" style="width:100%;">
         <router-link to="/HomeNuevo" class="enlace" style="width:50%;">
         <button type="button" class="btn btn-primary nuevo" style="min-width:125px; width:100%">
           Nuevo

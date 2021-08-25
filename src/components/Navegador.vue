@@ -118,9 +118,6 @@
       </button>
     </div>
 
-    
-
-
     <div class="container-xxl">
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav align-items-center">
@@ -466,7 +463,7 @@ export default {
 
 .buscador {
   margin: 0 0 0 10px;
-  background-color: var(--gris-claro);
+  background-color: rgb(233, 233, 233);
   border-bottom: 1px solid var(--naranja);
 }
 
