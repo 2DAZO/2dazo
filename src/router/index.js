@@ -32,7 +32,7 @@ const routes = [{
         component: Categorias,
     },
     {
-        path: "/ubicación",
+        path: "/ubicacion",
         name: "UbicacionMobile",
         component: UbicacionMobile,
     },
