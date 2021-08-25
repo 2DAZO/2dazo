@@ -68,7 +68,7 @@ export default {
 </script>
 <style  scoped>
     .footer {
-        width: 100vw;
+        width: 100%;
         height: max-content;
         background-color: var(--gris-claro);
     }

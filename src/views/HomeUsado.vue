@@ -8,7 +8,6 @@
     <Categorias></Categorias>
     <ListaProductos></ListaProductos>
     </div>
-    <ListaProductos></ListaProductos>
   </div>
 </template>
 
