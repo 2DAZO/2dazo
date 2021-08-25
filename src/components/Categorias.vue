@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column mt-5 general">
+  <div class="d-flex flex-column mt-4 mt-lg-5 general">
     <div class="d-flex justify-content-between">
       <h2 class="titulo text-start">Categorías destacadas</h2>
       <div class="flechas">
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="row my-5 d-flex justify-content-md-evenly padre">
+    <div class="row my-4 my-lg-5 d-flex justify-content-md-evenly padre">
       <div
         class="
           col-auto
@@ -275,7 +275,7 @@ box-shadow: 11px 11px 22px #bdbdbd49;
   padding: 10px 15px;
   filter: none;
   box-shadow: none;
-  background: var(--naranja);
+  background: var(--blanco);
   width: auto;
 }
 

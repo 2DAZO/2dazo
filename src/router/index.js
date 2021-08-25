@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeUsado from "../views/HomeUsado.vue";
 import HomeNuevo from "../views/HomeNuevo.vue";
-import VenderUsados from "../views/VenderUsados";
-import CategoriaUsados from "../views/CategoriaUsados";
+import VenderUsados from "../views/VenderUsados.vue";
+import CategoriaUsados from "../views/CategoriaUsados.vue";
+import UbicacionMobile from "../views/UbicacionMobile.vue";
 
 const routes = [{
         path: "/",
@@ -23,6 +24,11 @@ const routes = [{
         path: "/categorias",
         name: "CategoriaUsados",
         component: CategoriaUsados,
+    },
+    {
+        path: "/ubicación",
+        name: "UbicacionMobile",
+        component: UbicacionMobile,
     },
 ];
 
