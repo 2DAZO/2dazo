@@ -2,7 +2,7 @@
     {
         "id":1,
         "name":"PC Master Pro PC Master Pro PC Master Pro PC Master Pro PC Master Pro",
-        "img":"https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp",
+        "img":"https://http2.mlstatic.com/D_NQ_NP_667115-MCO25145805721_112016-O.jpg",
         "negociable":true,
         "destacado": true,
         "price": "1'700.000",
@@ -16,15 +16,17 @@
         "negociable":true,
         "destacado": true,
         "price": "1'700.000",
+        "ciudad":"Villavicencio",
         "estado": 9
     },
     {
         "id":3,
         "name":"PC Master Pro",
-        "img":"https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp",
+        "img":"https://http2.mlstatic.com/D_NQ_NP_667115-MCO25145805721_112016-O.jpg",
         "negociable":true,
         "destacado": true,
         "price": "1'700.000",
+        "ciudad":"Villavicencio",
         "estado": 7
     },
     {
@@ -34,15 +36,17 @@
         "negociable":true,
         "destacado": true,
         "price": "1'700.000",
+        "ciudad":"Villavicencio",
         "estado": 8
     },
     {
         "id":5,
         "name":"PC Master Pro",
-        "img":"https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp",
+        "img":"https://http2.mlstatic.com/D_NQ_NP_667115-MCO25145805721_112016-O.jpg",
         "negociable":true,
         "destacado": false,
         "price": "1'700.000",
+        "ciudad":"Villavicencio",
         "estado": 9
     },
     {
@@ -52,6 +56,7 @@
         "negociable":false,
         "destacado": false,
         "price": "1'700.000",
+        "ciudad":"Villavicencio",
         "estado": 2
     },
     {
@@ -61,6 +66,7 @@
         "negociable":true,
         "destacado": false,
         "price": "1'700.000",
+        "ciudad":"Villavicencio",
         "estado": 2
     }
 ]

@@ -1,8 +1,14 @@
 <template>
 <div class="row justify-content-center mt-4 mt-lg-0">
 	<div v-for="producto in productos" :key="producto.id" class="col-xl-3 col-sm-6 col-md-4 col-12 p-1">
-			<div class="card rounded-2 border-0 text-start p-2 align-items-center" >
-				<img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" style="max-width:250px;" class="card-img-top p-2" alt="">
+			<div class="card rounded-2 border-0 text-start p-2 align-items-center position-relative" >
+				<div class="position-absolute destacado" v-if="producto.destacado===true">
+					<p class>Destacado</p>
+				</div>
+				<div class="position-absolute ciudad">
+					<p class>{{producto.ciudad}}</p>
+				</div>
+				<img :src="producto.img" style="max-width:250px;" class="card-img-top p-2" alt="">
 				<div class="card-body d-flex flex-column justify-content-start align-items-start" style="width:100%;">
 					<div>
 						<p class="card-text nombre-producto"><span class="fw-bold">{{producto.name}}</span></p>
@@ -25,6 +31,7 @@
 			</div>
 		</div>
 </div>
+
 </template>
 
 <style scoped>
@@ -35,6 +42,37 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+.ciudad{
+	z-index: 10;
+	top: 15px;
+	right: 0;
+}
+
+.ciudad p{
+	font-size: 12px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 5px 10px;
+	color: var(--blanco);
+	background: var(--verde);
+}
+
+.destacado{
+	z-index: 10;
+	top: 15px;
+	left: 0;
+}
+
+.destacado p{
+	font-size: 12px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 5px 10px;
+	color: var(--gris-oscuro);
+	background: #ffc70e;
+}
+
 </style>
 
 <script>
