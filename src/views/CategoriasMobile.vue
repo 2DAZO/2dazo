@@ -64,7 +64,7 @@ import Barra from '../components/Navegador.vue'
 import Navegador from '../components/Barra.vue'
 
 export default {
-    name: "CategoriaUsados",
+    name: "CategoriasMobile",
     components: {
         Barra,
         Navegador,
