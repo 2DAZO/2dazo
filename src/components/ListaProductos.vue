@@ -1,7 +1,7 @@
 <template>
 <div class="row justify-content-center mt-4 mt-lg-0">
-	<div v-for="producto in productos" :key="producto.id" class="col-xl-3 col-sm-6 col-md-4 col-12 p-1">
-			<div class="card rounded-2 border-0 text-start p-2 align-items-center position-relative" >
+	<div v-for="producto in productos" :key="producto.id" class="col-xl-3 col-sm-6 col-md-4 col-12 p-1" >
+			<div class="card rounded-2 border-0 text-start p-2 align-items-center position-relative tarjeta" >
 				<div class="position-absolute destacado" v-if="producto.destacado===true">
 					<p class>Destacado</p>
 				</div>
@@ -36,6 +36,17 @@
 
 <style scoped>
 
+.tarjeta{
+	cursor: pointer;
+	transition: all .3s;
+	box-shadow: none
+}
+
+.tarjeta:hover{
+	box-shadow: 0 0px 10px rgba(136, 136, 136, 0.329);
+	transform: scale(1.05);
+}
+
 .nombre-producto {
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -50,7 +61,7 @@
 }
 
 .ciudad p{
-	font-size: 12px;
+	font-size: 13px;
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
 	padding: 5px 10px;
@@ -65,7 +76,7 @@
 }
 
 .destacado p{
-	font-size: 12px;
+	font-size: 13px;
 	border-bottom-right-radius: 20px;
 	border-top-right-radius: 20px;
 	padding: 5px 10px;

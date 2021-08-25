@@ -1,5 +1,6 @@
 <template>
   <div class="homeUsado">
+    <Barra></Barra>
     <Navegador></Navegador>
     <Banner></Banner>
     <div class="container-xxl">
@@ -12,6 +13,7 @@
 <script>
 // @ is an alias to /src
 
+import Barra from '../components/Barra.vue';
 import Navegador from '../components/Navegador.vue';
 import Banner from '../components/Banner.vue';
 import Categorias from '../components/Categorias.vue';
@@ -20,6 +22,7 @@ import ListaProductos from '../components/ListaProductos.vue';
 export default {
   name: "HomeUsado",
   components: {
+    Barra,
     Navegador,
     Banner,
     Categorias,
