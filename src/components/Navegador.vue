@@ -118,22 +118,10 @@
       </button>
     </div>
 
-    <div class="d-flex d-lg-none order-3 order-lg-2 m-auto justify-content-center" style="width:100%;">
-        <router-link to="/HomeNuevo" class="enlace" style="width:50%;">
-        <button type="button" class="btn btn-primary nuevo" style="min-width:125px; width:100%">
-          Nuevo
-        </button>
-      </router-link>
-
-      <router-link to="/Home" class="enlace order-5 order-lg-3" style="width:50%;">
-        <button type="button" class="btn vender" style="min-width:125px; width:100%">
-          Vender
-        </button>
-      </router-link>
-      </div>
+    
 
 
-    <div class="container-xxl pt-2 pb-2">
+    <div class="container-xxl">
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav align-items-center">
           <li class="nav-item dropdown d-none d-lg-block">
@@ -345,7 +333,7 @@ export default {
 
 .vender:hover {
   transform: scale(1.01);
-  color: var(--blanco)
+  color: var(--verde);
 }
 
 .vender svg {

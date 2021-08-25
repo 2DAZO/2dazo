@@ -1,6 +1,7 @@
 <template>
-    <div class="">
+    <div>
         <Navegador></Navegador>
+        <Barra></Barra>
         <div class="contenido">
             <div class="icono-container mt-5">
                 <svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,11 +60,13 @@
 
 <script>
 
-import Navegador from '../components/Navegador.vue'
+import Barra from '../components/Navegador.vue'
+import Navegador from '../components/Barra.vue'
 
 export default {
     name: "CategoriaUsados",
     components: {
+        Barra,
         Navegador,
     },
 }
