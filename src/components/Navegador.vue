@@ -168,10 +168,13 @@
             <router-link to="/" class="enlace">Lo más TOP</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace">Seguridad</router-link>
+            <router-link to="/seguridad-b" class="enlace">Seguridad</router-link>
           </li>
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace">T&C</router-link>
+          </li>
+          <li class="nav-item nav-link">
+            <router-link to="/" class="iniciar-sesion fw-bold d-lg-none">Iniciar Sesión</router-link>
           </li>
         </ul>
       </div>
@@ -331,6 +334,12 @@ export default {
 </script>
 
 <style scoped>
+
+.iniciar-sesion {
+  color: var(--naranja);
+  text-decoration: none;
+}
+
 .logo {
   height: 25px;
 }
