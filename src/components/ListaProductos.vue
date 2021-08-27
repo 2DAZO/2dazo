@@ -43,8 +43,8 @@
 }
 
 .tarjeta:hover{
-	box-shadow: 0 0px 10px rgba(136, 136, 136, 0.329);
-	transform: scale(1.05);
+	transition: box-shadow .3s ease-in-out;
+    box-shadow: 0 8px 15px 0 rgb(0 0 0 / 15%), 0 1px 3px 0 rgb(0 0 0 / 8%);
 }
 
 .nombre-producto {

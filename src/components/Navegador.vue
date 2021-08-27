@@ -1,13 +1,13 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light flex-column">
     <div class="container-xxl pb-2">
-      <a class="navbar-brand order-0" style="margin: 0" href="#">
+      <router-link  to="/" class="navbar-brand order-0" style="margin: 0" href="#">
         <img
           src="https://res.cloudinary.com/segundazo/image/upload/v1628277929/LOGO_Mesa_de_trabajo_1_orzv3e.png"
           alt=""
           height="30"
         />
-      </a>
+      </router-link>
       <button
         type="button"
         class="btn btn btn-outline-primary ubicacion order-1 order-lg-1"
@@ -150,6 +150,11 @@
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace d-block d-lg-none"
               >Categorías</router-link
+            >
+          </li>
+          <li class="nav-item nav-link">
+            <router-link to="/" class="enlace"
+              >Inicio</router-link
             >
           </li>
           <li class="nav-item nav-link">

@@ -1,8 +1,8 @@
 <template>
   <div class="vh-100">
+    <Navegador></Navegador>
     <Barra></Barra>
-    <div class="contenido mt-5">
-
+    <div class="container contenido mt-5">
       <div class="icono-container mt-5 mb-5">
         <h1 class="mb-0"><strong>Elige tu ubicación</strong></h1>
         <p class="lh-1">Acá podrás ver y cambia tu ubicación</p>
@@ -38,11 +38,13 @@
 </template>
 
 <script>
+import Navegador from '../components/Navegador.vue'
 import Barra from "../components/Barra.vue";
 
 export default {
   name: "CategoriasMobile",
   components: {
+    Navegador,
     Barra,
   },
 };

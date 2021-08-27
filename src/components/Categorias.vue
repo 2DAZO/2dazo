@@ -33,7 +33,6 @@
         </svg>
       </div>
     </div>
-
     <div class="row my-4 my-lg-5 d-flex justify-content-md-evenly padre">
       <div
         class="
