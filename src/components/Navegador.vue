@@ -168,7 +168,10 @@
             <router-link to="/" class="enlace">Lo más TOP</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/seguridad-b" class="enlace">Seguridad</router-link>
+            <router-link to="/seguridad-b" class="enlace d-lg-none">Seguridad</router-link>
+          </li>
+          <li class="nav-item nav-link">
+            <router-link to="/seguridad" class="d-none enlace d-lg-flex">Seguridad</router-link>
           </li>
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace">T&C</router-link>

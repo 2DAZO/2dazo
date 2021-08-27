@@ -6,6 +6,7 @@ import CategoriasMobile from "../views/CategoriasMobile.vue";
 import Categorias from "../views/Categorias.vue";
 import UbicacionMobile from "../views/UbicacionMobile.vue";
 import SeguridadMobile from "../views/SeguridadMobile.vue";
+import Seguridad from "../views/Seguridad.vue";
 
 const routes = [{
         path: "/",
@@ -36,6 +37,11 @@ const routes = [{
         path: "/ubicacion",
         name: "UbicacionMobile",
         component: UbicacionMobile,
+    },
+    {
+        path: "/seguridad",
+        name: "Seguridad",
+        component: Seguridad,
     },
     {
         path: "/seguridad-b",
