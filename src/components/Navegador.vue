@@ -65,7 +65,7 @@
           </button>
         </router-link>
 
-        <router-link to="/Home" class="enlace">
+        <router-link to="/vender" class="enlace">
           <button type="button" class="btn vender">Vende con nosotros</button>
         </router-link>
       </div>
