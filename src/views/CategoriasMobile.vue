@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Navegador></Navegador>
         <Barra></Barra>
         <div class="contenido">
             <div class="icono-container mt-5">
@@ -60,14 +59,12 @@
 
 <script>
 
-import Barra from '../components/Navegador.vue'
-import Navegador from '../components/Barra.vue'
+import Barra from '../components/Barra.vue'
 
 export default {
     name: "CategoriasMobile",
     components: {
         Barra,
-        Navegador,
     },
 }
 
