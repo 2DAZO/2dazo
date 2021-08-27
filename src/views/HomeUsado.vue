@@ -6,8 +6,9 @@
     <Barra></Barra>
     <div class="container-xxl">
     <Categorias></Categorias>
-    <ListaProductos></ListaProductos>
+    <ListaProductos class="mb-3"></ListaProductos>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Navegador from '../components/Navegador.vue';
 import Banner from '../components/Banner.vue';
 import Categorias from '../components/Categorias.vue';
 import ListaProductos from '../components/ListaProductos.vue';
+import Footer from '../components/Footer.vue'
 
 export default {
   name: "HomeUsado",
@@ -30,6 +32,7 @@ export default {
     Banner,
     Categorias,
     ListaProductos,
+    Footer
   },
 };
 </script>
