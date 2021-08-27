@@ -1,7 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light flex-column">
     <div class="container-xxl pb-2">
-      <router-link  to="/" class="navbar-brand order-0" style="margin: 0" href="#">
+      <router-link
+        to="/"
+        class="navbar-brand order-0"
+        style="margin: 0"
+        href="#"
+      >
         <img
           src="https://res.cloudinary.com/segundazo/image/upload/v1628277929/LOGO_Mesa_de_trabajo_1_orzv3e.png"
           alt=""
@@ -53,26 +58,30 @@
         </svg>
       </button>
 
-    <div class="d-none d-lg-flex order-lg-2">
-      <router-link to="/HomeNuevo" class="enlace">
-        <button type="button" class="btn btn-primary">
-          Compra productos nuevos
-        </button>
-      </router-link>
+      <div class="d-none d-lg-flex order-lg-2">
+        <router-link to="/HomeNuevo" class="enlace">
+          <button type="button" class="btn btn-primary">
+            Compra productos nuevos
+          </button>
+        </router-link>
 
-      <router-link to="/Home" class="enlace">
-        <button type="button" class="btn vender">
-          Vende con nosotros
-        </button>
-      </router-link>
-    </div>
+        <router-link to="/Home" class="enlace">
+          <button type="button" class="btn vender">Vende con nosotros</button>
+        </router-link>
+      </div>
 
-      
-
-      <router-link to="/Home" class="order-4 order-lg-4 sesion d-none d-lg-block" >
+      <router-link
+        to="/Home"
+        class="order-4 order-lg-4 sesion d-none d-lg-block"
+      >
         <button
           type="button"
-          class="btn btn-outline-primary botonbordeado d-flex d-lg-flex align-items-center"
+          class="
+            btn btn-outline-primary
+            botonbordeado
+            d-flex d-lg-flex
+            align-items-center
+          "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -153,14 +162,10 @@
             >
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace"
-              >Inicio</router-link
-            >
+            <router-link to="/" class="enlace">Inicio</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace"
-              >Lo más TOP</router-link
-            >
+            <router-link to="/" class="enlace">Lo más TOP</router-link>
           </li>
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace">Seguridad</router-link>
@@ -274,7 +279,9 @@
     <div class="modal-dialog" style="top: 25vh">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="ubicacionModalLabel">Modal title</h5>
+          <h1 class="titulo-modal mb-0" id="ubicacionModalLabel">
+            <strong>Elige tu ubicación</strong>
+          </h1>
           <button
             type="button"
             class="btn-close"
@@ -282,21 +289,34 @@
             aria-label="Close"
           ></button>
         </div>
-        <div class="modal-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          corporis ipsa consequatur iure vel fugit nam quisquam quas inventore,
-          numquam animi aspernatur ut error quis optio provident vitae fuga
-          nostrum?
+        <div class="modal-body row">
+          <div class="col text-start">
+            <p class="mb-1 fw-bold">Departamento</p>
+            <select
+              class="form-select rounded-pill"
+              aria-label="Default select example"
+            >
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col text-start">
+            <p class="mb-1 fw-bold">Municipio</p>
+            <select
+              class="form-select rounded-pill"
+              aria-label="Default select example"
+            >
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
         </div>
         <div class="modal-footer">
-          <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-dismiss="modal"
-          >
-            Close
-          </button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="boton-ubicacion rounded-pill text-light border-0 p-2">Agregar dirección</button>
         </div>
       </div>
     </div>
@@ -315,7 +335,7 @@ export default {
   height: 25px;
 }
 
-.nuevo{
+.nuevo {
   align-items: center;
   background: none;
   border: 1px solid var(--azul);
@@ -416,7 +436,6 @@ export default {
   color: var(--naranja);
 }
 
-
 .ubicacion svg {
   margin: 0 5px;
 }
@@ -444,11 +463,11 @@ export default {
   padding: 2px 5px;
   box-shadow: inset 0 0 0 1px var(--naranja);
   border-radius: 5px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .sesion:hover {
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
 
 .boton {
@@ -491,6 +510,12 @@ export default {
 
 .menu svg {
   height: 25px;
+  color: var(--naranja);
+}
+.boton-ubicacion{
+  background-color: var(--naranja);
+}
+.titulo-modal{
   color: var(--naranja);
 }
 </style>
