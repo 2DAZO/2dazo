@@ -5,7 +5,7 @@
                 <div class="row justify-content-center p-4">
                     <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
                     <h7>Interés</h7>
-                    <ul class="nav">
+                    <ul class="nav justify-content-center">
                         <li class="nav-item m-2"><a href="#" class="nav-link p-0 text-muted">Terminos y condiciones</a></li>
                         <li class="nav-item m-2"><a href="#" class="nav-link p-0 text-muted">Seguridad</a></li>
                         <li class="nav-item m-2"><a href="#" class="nav-link p-0 text-muted">Lo más top</a></li>
