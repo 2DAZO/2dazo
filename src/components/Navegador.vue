@@ -316,7 +316,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="boton-ubicacion rounded-pill text-light border-0 p-2">Agregar dirección</button>
+          <button type="button" class="boton-ubicacion rounded text-light border-0 p-2">Agregar dirección</button>
         </div>
       </div>
     </div>
