@@ -276,12 +276,14 @@
     aria-labelledby="ubicacionModalLabel"
     aria-hidden="true"
   >
-    <div class="modal-dialog" style="top: 25vh">
+
+
+    <div class="modal-dialog" style="top: 25vh; max-width: 800px;">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="titulo-modal mb-0" id="ubicacionModalLabel">
+          <h3 class="titulo-modal mb-0" id="ubicacionModalLabel">
             <strong>Elige tu ubicación</strong>
-          </h1>
+          </h3>
           <button
             type="button"
             class="btn-close"
@@ -316,7 +318,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="boton-ubicacion rounded-pill text-light border-0 p-2">Agregar dirección</button>
+          <button type="button" class="boton-ubicacion text-light p-2 rounded">Agregar dirección</button>
         </div>
       </div>
     </div>
