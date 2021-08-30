@@ -65,7 +65,7 @@
           </button>
         </router-link>
 
-        <router-link to="/Home" class="enlace">
+        <router-link to="/vender" class="enlace">
           <button type="button" class="btn vender">Vende con nosotros</button>
         </router-link>
       </div>
@@ -168,10 +168,16 @@
             <router-link to="/" class="enlace">Lo más TOP</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace">Seguridad</router-link>
+            <router-link to="/seguridad-b" class="enlace d-lg-none">Seguridad</router-link>
+          </li>
+          <li class="nav-item nav-link">
+            <router-link to="/seguridad" class="d-none enlace d-lg-flex">Seguridad</router-link>
           </li>
           <li class="nav-item nav-link">
             <router-link to="/" class="enlace">T&C</router-link>
+          </li>
+          <li class="nav-item nav-link">
+            <router-link to="/" class="iniciar-sesion fw-bold d-lg-none">Iniciar Sesión</router-link>
           </li>
         </ul>
       </div>
@@ -318,7 +324,11 @@
           </div>
         </div>
         <div class="modal-footer">
+<<<<<<< HEAD
           <button type="button" class="boton-ubicacion text-light p-2 rounded">Agregar dirección</button>
+=======
+          <button type="button" class="boton-ubicacion rounded text-light border-0 p-2">Agregar dirección</button>
+>>>>>>> 3955490adceb780bfcb65bbbbafd1d8652644ce8
         </div>
       </div>
     </div>
@@ -333,6 +343,12 @@ export default {
 </script>
 
 <style scoped>
+
+.iniciar-sesion {
+  color: var(--naranja);
+  text-decoration: none;
+}
+
 .logo {
   height: 25px;
 }
