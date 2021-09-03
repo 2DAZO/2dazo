@@ -324,11 +324,7 @@
           </div>
         </div>
         <div class="modal-footer">
-<<<<<<< HEAD
-          <button type="button" class="boton-ubicacion text-light p-2 rounded">Agregar dirección</button>
-=======
           <button type="button" class="boton-ubicacion rounded text-light border-0 p-2">Agregar dirección</button>
->>>>>>> 3955490adceb780bfcb65bbbbafd1d8652644ce8
         </div>
       </div>
     </div>
