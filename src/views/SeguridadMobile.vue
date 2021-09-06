@@ -87,12 +87,6 @@ export default {
   color: var(--naranja);
 }
 
-.categorias {
-  width: 160px;
-  height: 75px;
-  background-color: var(--naranja);
-}
-
 .factura{
   text-decoration: none;
   color: var(--naranja);
