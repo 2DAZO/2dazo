@@ -1,6 +1,5 @@
 <template>
   <div class="vh-100">
-    <Navegador></Navegador>
     <Barra></Barra>
     <div class="container contenido mt-5">
       <div class="icono-container mt-5 mb-5">
@@ -38,13 +37,11 @@
 </template>
 
 <script>
-import Navegador from '../components/Navegador.vue'
 import Barra from "../components/Barra.vue";
 
 export default {
   name: "CategoriasMobile",
   components: {
-    Navegador,
     Barra,
   },
 };

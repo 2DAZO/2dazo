@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-container">
     <Barra></Barra>
     <div class="contenido">
       <div class="icono-container mt-5">
@@ -112,6 +112,11 @@ export default {
 </script>
 
 <style scoped>
+
+.main-container {
+  height: 100vh;
+}
+
 .contenido {
   padding: 0 10px 0;
 }

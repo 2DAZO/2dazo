@@ -15,7 +15,7 @@
       </router-link>
       <button
         type="button"
-        class="btn btn btn-outline-primary ubicacion order-1 order-lg-1"
+        class="btn btn btn-outline-primary ubicacion order-1 order-lg-1 d-none d-lg-flex"
         data-bs-toggle="modal"
         data-bs-target="#ubicacionModal"
       >
@@ -58,6 +58,48 @@
         </svg>
       </button>
 
+      <button
+        type="button"
+        class="btn btn btn-outline-primary ubicacion order-1 order-lg-1 d-lg-none"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 icon-small"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+          />
+        </svg>
+        <router-link to="/ubicacion" class="mb-0 ubicacion enlace">Ingresa tu ubicación</router-link>
+        <svg
+          g
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 icon-small"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </button>
+
       <div class="d-none d-lg-flex order-lg-2">
         <router-link to="/HomeNuevo" class="enlace">
           <button type="button" class="btn btn-primary">
@@ -71,7 +113,7 @@
       </div>
 
       <router-link
-        to="/Home"
+        to="/"
         class="order-4 order-lg-4 sesion d-none d-lg-block"
       >
         <button
@@ -304,7 +346,7 @@
               class="form-select rounded-pill"
               aria-label="Default select example"
             >
-              <option selected>Open this select menu</option>
+              <option selected>Selecciona un departamento</option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>
@@ -316,7 +358,7 @@
               class="form-select rounded-pill"
               aria-label="Default select example"
             >
-              <option selected>Open this select menu</option>
+              <option selected>Selecciona un municipio</option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>
@@ -448,10 +490,6 @@ export default {
 .botonbordeado:hover {
   background: none;
   color: var(--naranja);
-}
-
-.ubicacion svg {
-  margin: 0 5px;
 }
 
 .ubicacion:hover svg {
