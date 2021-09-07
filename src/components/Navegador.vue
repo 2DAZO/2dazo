@@ -539,7 +539,7 @@ export default {
 
 .buscador {
   margin: 0 0 0 10px;
-  background-color: rgb(233, 233, 233);
+  background-color: var(--gris-claro);
   border-bottom: 1px solid var(--naranja);
 }
 
