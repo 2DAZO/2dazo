@@ -56,7 +56,7 @@ const routes = [{
         component: ProductoMobile,
     },
     {
-        path: "/producto",
+        path: "/producto/:id",
         name: "Producto",
         component: Producto,
     },
