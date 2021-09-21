@@ -1,6 +1,6 @@
 <template>
 <div class="row justify-content-center mt-2 mt-lg-4 mt-lg-0">
-	<div v-for="producto in productos" :key="producto.id" class="col-xl-3 col-sm-6 col-md-4 col-12 p-1" >
+	<router-link :to="`/${producto.type}/${producto.id}`" v-for="producto in productos" :key="producto.id" class="col-xl-3 col-sm-6 col-md-4 col-12 p-1" style="color: var(--gris-oscuro); text-decoration:none;">
 			<div class="card rounded-2 border-0 text-start p-2 align-items-center position-relative tarjeta" >
 				<div class="position-absolute destacado" v-if="producto.destacado===true">
 					<p class>Destacado</p>
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</router-link>
 </div>
 
 </template>
