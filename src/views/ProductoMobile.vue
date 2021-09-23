@@ -1,7 +1,8 @@
 <template>
-  <div class="main-container mt-3 me-4 ms-4">
+  <div class="main-container me-4 ms-4">
+    <NavbarMobile/>
     <BotonWhatsapp></BotonWhatsapp>
-    <div>
+    <div class="pt-2">
       <div class="mb-3">
         <img src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp" alt="imagen del producto" style="max-width:300px;" class="product-img rounded card-img-top p-2">
       </div>
@@ -55,10 +56,13 @@
 <script>
 import BotonWhatsapp from "../components/BotonWhatsapp.vue";
 
+import NavbarMobile from "../components/NavbarMobile.vue";
+
 export default {
   name: "ProductoMobile",
   components: {
     BotonWhatsapp,
+    NavbarMobile,
   },
 };
 </script>
