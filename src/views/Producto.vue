@@ -31,7 +31,7 @@
               <p class="mb-2 fw-semibold ciudad">Villavicencio</p>
               <h4 class="fw-bold" style="font-size:24px;">Zapatillas Nike</h4>
             </div>
-            <div class="d-flex flex-column justify-content.center text-end">
+            <div class="d-flex flex-column justify-content-center text-end">
               <p class="mb-1" style="font-size: 18px; font-weight: 600;">Estado:</p>
               <h4 class="fw-bold" style="font-size:36px; color: var(--naranja);">8/10</h4>
             </div>
@@ -50,8 +50,27 @@
 
       <div class="content-product">
         <div class="mt-5">
-          <div class="d-flex flex-column text-start">
-            <p class="fw-bold" style="font-size:18px;">Descripción</p>
+          <div class="d-flex justify-content-around">
+            <a
+              to="/"
+              class="d-flex button-description rounded"
+              data-bs-toggle="collapse"
+              href="#collapsedescripcion"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapsedescripcion"
+            >Descripción</a>
+            <a
+              to="/"
+              class="d-flex button-description rounded"
+              data-bs-toggle="collapse"
+              href="#collapseseguridad"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseseguridad"
+            >Seguridad</a>
+          </div>
+          <div class="collapse description-container d-flex flex-column text-start" id="collapsedescripcion">
             <div>
               <p class="fw-bold mb-1">Características principales</p>
               <ul>
@@ -65,7 +84,7 @@
               </div>
             </div>
           </div>
-          <div class="d-flex flex-column text-start mt-5">
+          <div class="collapse description-container d-flex flex-column text-start mt-5" id="collapseseguridad">
             <p class="fw-bold" style="font-size:18px;">Seguridad</p>
             <div>
               <p class=" mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur soluta nam iste. Eveniet omnis molestiae corrupti repellendus, dolorum mollitia corporis recusandae! Repellat ratione optio magni praesentium dignissimos animi porro aut!</p>
@@ -170,5 +189,23 @@ export default {
 
 .boton {
   width: 70%;
+}
+
+.description-container {
+  transition: 00.3s;
+}
+
+.button-description {
+  width:max-content;
+  padding: 10px;
+  align-items: center;
+  background: var(--naranja);
+  color: var(--blanco);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.button-description:hover {
+  transform: scale(1.05);
 }
 </style>>
