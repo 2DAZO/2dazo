@@ -41,7 +41,7 @@
           /></svg
         >Lo más top</router-link
       >
-      <router-link to="/" class="item buscador"
+      <router-link to="/" class="item buscador" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
@@ -89,6 +89,24 @@
         >Seguridad</router-link
       >
     </div>
+        <!-- Full screen modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog buscador-modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -132,5 +150,10 @@
 
 .buscador svg {
   color: var(--blanco);
+}
+
+.modal-dialog{
+  width: 100vw !important;
+  height: 100vh !important;
 }
 </style>
