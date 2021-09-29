@@ -25,7 +25,7 @@
           /></svg
         >Inicio</router-link
       >
-      <router-link to="/" class="item">
+      <router-link to="/top-b" class="item">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
@@ -94,11 +94,35 @@
       <div class="modal-dialog m-0">
         <div class="modal-content buscador-modal">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <h1 style="color: var(--naranja);">Buscador</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ...
+            <div class="input-group buscador-m d-flex input-search">
+              <input
+                type="text"
+                class="form-control texto "
+                placeholder="Lo que quieras mi rey"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button class="btn" type="button" id="button-addon2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 icon-small"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -155,5 +179,23 @@
 .buscador-modal{
   width: 100vw !important;
   height: 100vh !important;
+}
+
+.buscador-m {
+  margin: 0 0 0 10px;
+  background-color: var(--gris-claro);
+  border-bottom: 1px solid var(--naranja);
+}
+
+.buscador-m input {
+  border: none;
+  outline: none;
+  background-color: #fff0;
+}
+
+.buscador-m button {
+  border: none;
+  color: #ff7465;
+  transition: all 0.3s;
 }
 </style>

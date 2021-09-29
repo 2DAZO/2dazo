@@ -1,5 +1,6 @@
 <template>
-  <div class="">
+  <div class="me-2 ms-2">
+    <NavbarMobile2/>
     <Barra></Barra>
     <div class="contenido pb-5">
       <div class="icono-container mt-5">
@@ -70,11 +71,13 @@
 
 <script>
 import Barra from "../components/Barra.vue";
+import NavbarMobile2 from "../components/NavbarMobile2.vue"
 
 export default {
   name: "SeguridadsMobile",
   components: {
     Barra,
+    NavbarMobile2,
   },
 };
 </script>

@@ -1,8 +1,12 @@
-<template >
-    <div class="row contenedor mt-2">
+<template>
+  <div class="main-container me-2 ms-2">
+    <NavbarMobile2/>
+    <Barra></Barra>
+    <div class="contenido">
+      <div class=" mt-3 mb-3">
         <div
         id="bannerpublicitarios"
-        class="carousel slide col-12 col-md-8 me-2 rounded-3"
+        class="carousel slide col-12 rounded-3"
         data-bs-ride="carousel"
         >
         <div class="carousel-indicators">
@@ -72,41 +76,40 @@
             <span class="visually-hidden">Next</span>
         </button>
         </div>
-
-        <a
-        class="
-            col
-            -4
-            info
-            rounded-3
-            me-3
-            position-relative
-            cuadro-info
-            d-md-block d-none
-        "
-        href="https://www.w3schools.com/jsref/jsref_splice.asp"
-        >
-        </a>
+      </div>
+      <ListaProductos/>
     </div>
+  </div>
 </template>
 
+<script>
+import Barra from "../components/Barra.vue";
+import NavbarMobile2 from "../components/NavbarMobile2.vue";
+import ListaProductos from "../components/ListaProductos.vue";
+
+export default {
+  name: "TopMobile",
+  components: {
+    Barra,
+    NavbarMobile2,
+    ListaProductos
+  },
+};
+</script>
+
 <style scoped>
-.contenedor {
-  width: 100%;
-  max-width: 1400px;
-  margin: auto;
-  /* max-height: 320px; */
+
+.main-container {
+  height: 100vh;
 }
 
-.cuadro-info {
-  background: url("https://i.pinimg.com/originals/02/3a/87/023a877e31bece11178bc786e058d49f.jpg");
-  background-size: cover;
-  background-position: center;
+.contenido {
+  padding: 0 10px 0;
 }
 
-.saber {
-  color: var(--gris-oscuro);
-  background-color: var(--blanco);
-  border: 1px solid var(--naranja);
+.categorias {
+  width: 160px;
+  height: 75px;
+  background-color: var(--naranja);
 }
-</style>
+</style>>
