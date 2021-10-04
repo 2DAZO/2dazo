@@ -9,6 +9,7 @@ import SeguridadMobile from "../views/SeguridadMobile.vue";
 import Seguridad from "../views/Seguridad.vue";
 import ProductoMobile from "../views/ProductoMobile.vue";
 import TopMobile from "../views/TopMobile.vue";
+import RegistroMobile from "../views/RegistroMobile.vue";
 import Top from "../views/Top.vue";
 import Producto from "../views/Producto.vue";
 
@@ -71,6 +72,11 @@ const routes = [{
         path: "/producto/:id",
         name: "Producto",
         component: Producto,
+    },
+    {
+        path: "/registro-b",
+        name: "RegistroMobile",
+        component: RegistroMobile,
     },
 ];
 
