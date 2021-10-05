@@ -5,10 +5,8 @@
 </template>
 
 <style lang="scss">
-#app {
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app {
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   color: #2c3e50;
   background: rgb(247, 247, 247);
@@ -34,10 +32,6 @@
   color: var(--naranja);
 }
 
-
-.app {
-  padding: 5px 0 0 0;
-}
 #nav {
     margin-bottom: 10px;
     display: flex;

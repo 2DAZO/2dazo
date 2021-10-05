@@ -9,7 +9,8 @@ import SeguridadMobile from "../views/SeguridadMobile.vue";
 import Seguridad from "../views/Seguridad.vue";
 import ProductoMobile from "../views/ProductoMobile.vue";
 import TopMobile from "../views/TopMobile.vue";
-import RegistroMobile from "../views/RegistroMobile.vue";
+import Login from "../views/Login.vue";
+import Registro from "../views/Registro.vue";
 import Top from "../views/Top.vue";
 import Producto from "../views/Producto.vue";
 
@@ -74,9 +75,14 @@ const routes = [{
         component: Producto,
     },
     {
-        path: "/registro-b",
-        name: "RegistroMobile",
-        component: RegistroMobile,
+        path: "/login",
+        name: "Login",
+        component: Login,
+    },
+    {
+        path: "/registro",
+        name: "Registro",
+        component: Registro,
     },
 ];
 
