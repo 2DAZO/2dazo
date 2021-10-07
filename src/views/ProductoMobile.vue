@@ -1,6 +1,6 @@
 <template>
   <div class="main-container me-4 ms-4">
-    <NavbarMobile/>
+    <NavbarProducto/>
     <BotonWhatsapp></BotonWhatsapp>
     <div class="pt-2">
       <div class="mb-3">
@@ -56,13 +56,13 @@
 <script>
 import BotonWhatsapp from "../components/BotonWhatsapp.vue";
 
-import NavbarMobile from "../components/NavbarMobile.vue";
+import NavbarProducto from "../components/NavbarProducto.vue";
 
 export default {
   name: "ProductoMobile",
   components: {
     BotonWhatsapp,
-    NavbarMobile,
+    NavbarProducto,
   },
 };
 </script>

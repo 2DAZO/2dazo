@@ -135,7 +135,7 @@
   </div>
 </template>
 <script>
-import BotonAtras from "../components/BotonAtras.vue";
+import BotonAtras from "./BotonAtras.vue";
 
 export default {
   name: "NavbarMobile",

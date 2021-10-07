@@ -1,8 +1,16 @@
 <template>
-  <div>
-    <Navegador></Navegador>
-    <div class="content-main bg-white rounded container mt-4 pb-5">
-      <div class="content-product p-4">
+  <div class="main-container mx-2">
+    <div class="boton-container d-flex d-md-none ">
+      <BotonWhatsapp class="boton"/>
+    </div>
+    <div class="d-block d-md-none">
+      <NavbarProducto/>
+    </div>
+    <div class="d-none d-md-block">
+      <Navegador />
+    </div>
+    <div class="content-main rounded container-xxl mt-4">
+      <div class="content-product ">
         <div class="flex flex-column">
           <img
             src="https://http2.mlstatic.com/D_Q_NP_621621-MCO46015188216_052021-AB.webp"
@@ -25,31 +33,37 @@
             </div>
           </div>
         </div>
-        <div class="d-flex flex-column text-start" style="justify-content:center;"> 
-          <div class="precio-content mb-4">
+        <div class="d-flex flex-column text-start mb-4 mb-md-0" style="justify-content:center;"> 
+          <div class="precio-content mb-4 d-flex d-md-grid">
             <div class="d-flex flex-column text-start">
               <p class="mb-2 fw-semibold ciudad">Villavicencio</p>
               <h4 class="fw-bold" style="font-size:24px;">Zapatillas Nike</h4>
             </div>
-            <div class="d-flex flex-column justify-content-center text-end">
+            <div class="d-none d-md-flex flex-column justify-content-center text-end">
               <p class="mb-1" style="font-size: 18px; font-weight: 600;">Estado:</p>
               <h4 class="fw-bold" style="font-size:36px; color: var(--naranja);">8/10</h4>
             </div>
           </div>
-          <div class="d-flex flex-column text-start mb-5">
-            <p class="mb-1" style=" font-weight: 600;">
-              Precio negociable: <span style="font-size: 18px">Si</span>
-            </p>
-            <h4 class="fw-bold" style="font-size:36px; color: var(--naranja);">$1.750.000</h4>
+          <div class="precio-content d-grid d-md-flex">
+            <div class="d-flex flex-column text-start mb-md-5">
+              <p class="mb-1" style=" font-weight: 600;">
+                Precio negociable: <span style="font-size: 18px">Si</span>
+              </p>
+              <h4 class="fw-bold" style="font-size:36px; color: var(--naranja);">$1.750.000</h4>
+            </div>
+            <div class="d-flex d-md-none flex-column justify-content-center text-end">
+              <p class="mb-1" style="font-size: 18px; font-weight: 600;">Estado:</p>
+              <h4 class="fw-bold" style="font-size:36px; color: var(--naranja);">8/10</h4>
+            </div>
           </div>
-          <div class="boton-container d-flex">
+          <div class="boton-container d-none d-md-flex ">
             <BotonWhatsappPC class="boton"/>
           </div>
         </div>
       </div>
 
       <div class="content-product">
-        <div class="mt-5">
+        <div class="mt-0 mt-md-5 mb-4">
           <div class="d-flex justify-content-around">
             <a
               to="/"
@@ -94,21 +108,27 @@
         <div></div>
       </div>
     </div>
-    <Footer></Footer>
+    <div class="d-none d-md-block">
+      <Footer/>
+    </div>
   </div>
 </template>
 
 <script>
 import Navegador from "../components/Navegador.vue";
+import NavbarProducto from "../components/NavbarProducto.vue";
 import Footer from "../components/Footer.vue";
 import BotonWhatsappPC from "../components/BotonWhatsappPC.vue";
+import BotonWhatsapp from "../components/BotonWhatsapp.vue";
 
 export default {
   name: "Producto",
   components: {
     Navegador,
+    NavbarProducto,
     Footer,
     BotonWhatsappPC,
+    BotonWhatsapp,
   },
   data() {
     return {
@@ -136,15 +156,33 @@ export default {
 </script>
 
 <style scoped>
+.main-container{
+  height: 100vh;
+}
+
 .content-product {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .content-product {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media (max-width: 768px) {
+  .content-main {
+  background-color: white;
+  }
 }
 
 .precio-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 
 .img-containers {
   width: 60px;
