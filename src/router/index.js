@@ -5,7 +5,6 @@ import VenderUsados from "../views/VenderUsados.vue";
 import CategoriasMobile from "../views/CategoriasMobile.vue";
 import Categorias from "../views/Categorias.vue";
 import UbicacionMobile from "../views/UbicacionMobile.vue";
-import SeguridadMobile from "../views/SeguridadMobile.vue";
 import Seguridad from "../views/Seguridad.vue";
 import TopMobile from "../views/TopMobile.vue";
 import Login from "../views/Login.vue";
@@ -47,11 +46,6 @@ const routes = [{
         path: "/seguridad",
         name: "Seguridad",
         component: Seguridad,
-    },
-    {
-        path: "/seguridad-b",
-        name: "SeguridadMobile",
-        component: SeguridadMobile,
     },
     {
         path: "/top-b",

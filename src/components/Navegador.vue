@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light flex-column container-xxl">
+  <nav class="navbar navbar-expand-lg navbar-light flex-column">
     <div class="container-xxl pb-2">
       <router-link
         to="/"

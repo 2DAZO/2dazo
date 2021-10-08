@@ -3,10 +3,10 @@
     <div class="boton-container d-flex d-md-none ">
       <BotonWhatsapp class="boton"/>
     </div>
-    <div class="d-block d-md-none">
+    <div class="d-block d-lg-none">
       <NavbarProducto/>
     </div>
-    <div class="d-none d-md-block">
+    <div class="d-none d-lg-block">
       <Navegador />
     </div>
     <div class="content-main rounded container-xxl mt-4">
@@ -63,11 +63,11 @@
       </div>
 
       <div class="content-product">
-        <div class="mt-0 mt-md-5">
-          <div class="d-flex justify-content-around mb-4">
+        <div class="mt-0 mt-md-5 pe-md-3 ps-md-3">
+          <div class="row d-md-flex  mb-4">
             <a
               to="/"
-              class="d-flex button-description rounded"
+              class="d-flex button-description rounded col me-1 justify-content-center"
               data-bs-toggle="collapse"
               href="#collapsedescripcion"
               role="button"
@@ -76,7 +76,7 @@
             >Descripción</a>
             <a
               to="/"
-              class="d-flex button-description rounded"
+              class="d-flex button-description rounded col ms-1 justify-content-center d-md-none"
               data-bs-toggle="collapse"
               href="#collapseseguridad"
               role="button"
@@ -98,6 +98,26 @@
               </div>
             </div>
           </div>
+          <div class="collapse description-container d-flex flex-column text-start mt-5 d-md-none" id="collapseseguridad">
+            <p class="fw-bold" style="font-size:18px;">Seguridad</p>
+            <div>
+              <p class=" mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur soluta nam iste. Eveniet omnis molestiae corrupti repellendus, dolorum mollitia corporis recusandae! Repellat ratione optio magni praesentium dignissimos animi porro aut!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none d-md-block mt-5 ps-md-3 pe-md-3">
+          <div class="d-flex  mb-4">
+            <a
+              to="/"
+              class="d-flex button-description rounded col ms-1 justify-content-center"
+              data-bs-toggle="collapse"
+              href="#collapseseguridad"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseseguridad"
+            >Seguridad</a>
+          </div>
           <div class="collapse description-container d-flex flex-column text-start mt-5" id="collapseseguridad">
             <p class="fw-bold" style="font-size:18px;">Seguridad</p>
             <div>
@@ -105,7 +125,6 @@
             </div>
           </div>
         </div>
-        <div></div>
       </div>
     </div>
     <div class="d-none d-md-block">
@@ -172,9 +191,13 @@ export default {
 }
 }
 
+.content-main {
+  background-color: white;
+  }
+
 @media (max-width: 768px) {
   .content-main {
-  background-color: white;
+  background-color: transparent;
   }
 }
 
@@ -226,7 +249,7 @@ export default {
 }
 
 .boton {
-  width: 70%;
+  width: 80%;
 }
 
 .description-container {
@@ -234,7 +257,6 @@ export default {
 }
 
 .button-description {
-  width:max-content;
   padding: 10px;
   align-items: center;
   background: var(--naranja);

@@ -1,6 +1,12 @@
 <template>
   <div class="main-container me-2 ms-2">
-    <Navegador/>
+    <div class="d-none d-lg-block">
+      <Navegador/>
+    </div>
+    <div class="d-block d-lg-none">
+      <NavbarMobile2/>
+    </div>
+    
     <Barra></Barra>
     <div class="contenido">
       <div class=" mt-3 mb-3">
@@ -79,6 +85,9 @@
       </div>
       <ListaProductos/>
     </div>
+    <div class="d-none d-lg-block">
+      <Footer/>
+    </div>
   </div>
 </template>
 
@@ -86,13 +95,17 @@
 import Barra from "../components/Barra.vue";
 import Navegador from "../components/Navegador.vue";
 import ListaProductos from "../components/ListaProductos.vue";
+import Footer from "../components/Footer.vue";
+import NavbarMobile2 from "../components/NavbarMobile2.vue";
 
 export default {
   name: "TopMobile",
   components: {
     Barra,
     Navegador,
-    ListaProductos
+    ListaProductos,
+    Footer,
+    NavbarMobile2
   },
 };
 </script>

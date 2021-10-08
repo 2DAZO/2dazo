@@ -9,7 +9,6 @@
   font-family: 'Poppins', sans-serif;
   text-align: center;
   color: #2c3e50;
-  background: rgb(247, 247, 247);
 } 
 
 :root {

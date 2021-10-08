@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex justify-content-center">
-    <div class="boton-container menu ps-5 pe-5 rounded">
-      <div class="icon-container d-flex align-items-center">
+    <div class="boton-container rounded">
+      <div class="icon-container d-flex align-items-center me-3">
         <svg
           width="30"
           height="30"
@@ -30,7 +30,8 @@
 
 
 <style scoped>
-.menu {
+
+.boton-container{
   z-index: 1000;
   bottom: 0px;
   width: 90%;
@@ -38,16 +39,8 @@
   margin-bottom: 5px;
   background: rgba(37, 211, 102, 1);
   box-shadow: 0 0px 10px rgba(136, 136, 136, 0.329);
-}
-
-.icon-container {
-  width: 100%;
-  height: 100%;
-}
-
-.boton-container{
   color:white;
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  justify-content: center;
 }
 </style>
