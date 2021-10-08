@@ -33,7 +33,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex flex-column text-start mb-4 mb-md-0" style="justify-content:center;"> 
+        <div class="d-flex flex-column text-start mb-5 mb-md-0" style="justify-content:center;"> 
           <div class="precio-content mb-4 d-flex d-md-grid">
             <div class="d-flex flex-column text-start">
               <p class="mb-2 fw-semibold ciudad">Villavicencio</p>
@@ -63,8 +63,8 @@
       </div>
 
       <div class="content-product">
-        <div class="mt-0 mt-md-5 mb-4">
-          <div class="d-flex justify-content-around">
+        <div class="mt-0 mt-md-5">
+          <div class="d-flex justify-content-around mb-4">
             <a
               to="/"
               class="d-flex button-description rounded"
