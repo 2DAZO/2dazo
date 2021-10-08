@@ -82,7 +82,7 @@
 
         <button type="" class="boton rounded p-1 mb-2">Ingresar</button>
         <div class="d-flex justify-content-center">
-          <p>¿Ya tiene cuenta? <router-link to="/login" class="recuperar fw-bold">Registrarme</router-link></p>
+          <p>¿Ya tiene cuenta? <router-link to="/login" class="recuperar fw-bold">Iniciar sesion</router-link></p>
         </div>
       </form>
     </div>
@@ -104,7 +104,6 @@ export default {
   height: 100vh;
   display: grid;
   grid-template-columns: 60% 40%;
-  background-color: var(--gris-claro);
   
 }
 
@@ -120,8 +119,6 @@ export default {
 }
 
 .contenido {
-  
-  background-color: var(--gris-claro);
   
 }
 
@@ -143,7 +140,6 @@ export default {
 }
 
 .input-container {
-  background-color: var(--gris-claro);
   border-bottom: 1px solid var(--naranja);
 }
 

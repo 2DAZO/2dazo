@@ -113,7 +113,7 @@
       </div>
 
       <router-link
-        to="/"
+        to="/login"
         class="order-4 order-lg-4 sesion d-none d-lg-block"
       >
         <button
@@ -207,19 +207,21 @@
             <router-link to="/" class="enlace">Inicio</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace">Lo más TOP</router-link>
+            <router-link to="/top" class="enlace">Lo más TOP</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/seguridad-b" class="enlace d-lg-none">Seguridad</router-link>
+            <router-link to="/seguridad" class=" enlace d-flex">Seguridad</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/seguridad" class="d-none enlace d-lg-flex">Seguridad</router-link>
+            <router-link
+            to="/"
+            class="enlace"
+            data-bs-toggle="modal"
+            data-bs-target="#TyCModal"
+            >T&C</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace">T&C</router-link>
-          </li>
-          <li class="nav-item nav-link">
-            <router-link to="/" class="iniciar-sesion fw-bold d-lg-none">Iniciar Sesión</router-link>
+            <router-link to="/login" class="iniciar-sesion fw-bold d-lg-none">Iniciar Sesión</router-link>
           </li>
         </ul>
       </div>
@@ -317,15 +319,13 @@
   </div>
 
   <div class="collapse" id="collapseExample"></div>
+
   <div
     class="modal fade"
     id="ubicacionModal"
     tabindex="-1"
     aria-labelledby="ubicacionModalLabel"
-    aria-hidden="true"
-  >
-
-
+    aria-hidden="true">
     <div class="modal-dialog" style="top: 25vh; max-width: 800px;">
       <div class="modal-content">
         <div class="modal-header">
@@ -367,6 +367,36 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="boton-ubicacion rounded text-light border-0 p-2">Agregar dirección</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="modal fade"
+    id="TyCModal"
+    tabindex="-1"
+    aria-labelledby="T&CModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" style="top: 25vh; max-width: 800px;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="titulo-modal mb-0" id="TyCModalLabel">
+            <strong>Términos & Condiciones</strong>
+          </h3>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body row">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste iusto non accusamus tempore quo ipsam explicabo saepe? Alias tenetur odit minima exercitationem harum! Excepturi libero, similique fugit alias adipisci molestiae.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste iusto non accusamus tempore quo ipsam explicabo saepe? Alias tenetur odit minima exercitationem harum! Excepturi libero, similique fugit alias adipisci molestiae
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste iusto non accusamus tempore quo ipsam explicabo saepe? Alias tenetur odit minima exercitationem harum! Excepturi libero, similique fugit alias adipisci molestiae
+          </p>
+          
         </div>
       </div>
     </div>

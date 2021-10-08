@@ -60,8 +60,6 @@ export default {
   height: 100vh;
   display: grid;
   grid-template-columns: 60% 40%;
-  background-color: var(--gris-claro);
-  
 }
 
 @media (max-width: 768px) {
