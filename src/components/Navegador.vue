@@ -107,9 +107,9 @@
           </button>
         </router-link>
 
-        <router-link to="/vender" class="enlace">
+        <div class="enlace" data-bs-toggle="modal" data-bs-target="#venderModal">
           <button type="button" class="btn vender">Vende con nosotros</button>
-        </router-link>
+        </div>
       </div>
 
       <router-link
@@ -199,12 +199,12 @@
             >
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace d-block d-lg-none"
-              >Categorías</router-link
-            >
+            <router-link to="/" class="enlace">Inicio</router-link>
           </li>
           <li class="nav-item nav-link">
-            <router-link to="/" class="enlace">Inicio</router-link>
+            <router-link to="/categorias-b" class="enlace d-block d-lg-none"
+              >Categorías</router-link
+            >
           </li>
           <li class="nav-item nav-link">
             <router-link to="/top" class="enlace">Lo más TOP</router-link>
@@ -396,7 +396,38 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste iusto non accusamus tempore quo ipsam explicabo saepe? Alias tenetur odit minima exercitationem harum! Excepturi libero, similique fugit alias adipisci molestiae
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste iusto non accusamus tempore quo ipsam explicabo saepe? Alias tenetur odit minima exercitationem harum! Excepturi libero, similique fugit alias adipisci molestiae
           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="modal fade"
+    id="venderModal"
+    tabindex="-1"
+    aria-labelledby="venderModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" style="top: 25vh; max-width: 800px;">
+      <div class="modal-content">
+        <div class="d-flex align-items-center justify-content-end p-3">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body row">
           
+        </div>
+        <div class="d-flex align-items-center justify-content-end p-3">
+          <router-link to="/registro" class="">
+            <button type="button"
+            class="boton-ubicacion rounded text-light border-0 p-2"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+            >Registrarme</button>
+          </router-link>
         </div>
       </div>
     </div>
