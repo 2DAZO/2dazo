@@ -9,6 +9,7 @@ import Seguridad from "../views/Seguridad.vue";
 import TopMobile from "../views/TopMobile.vue";
 import Login from "../views/Login.vue";
 import Registro from "../views/Registro.vue";
+import Recuperar from "../views/Recuperar.vue";
 import Top from "../views/Top.vue";
 import Producto from "../views/Producto.vue";
 
@@ -71,6 +72,11 @@ const routes = [{
         path: "/registro",
         name: "Registro",
         component: Registro,
+    },
+    {
+        path: "/recuperar",
+        name: "Recuperar",
+        component: Recuperar,
     },
 ];
 

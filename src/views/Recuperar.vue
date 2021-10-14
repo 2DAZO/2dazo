@@ -5,7 +5,7 @@
     </div>
 
     <div class="contenido d-flex justify-content-center">
-      <form action="" method="post" v-on:submit.prevent="login()" class="form-container my-auto">
+      <form action="" method="post" v-on:submit.prevent="recuperar()" class="form-container my-auto">
         <router-link
         to="/"
         class=" d-flex justify-content-center mb-4"
@@ -18,7 +18,6 @@
             width="250"
           />
         </router-link>
-        <p class="mb-4">Nos agrada volver a verte.</p>
         <label for="" class="input-container mb-3">
           <span class="fw-bold mb-1">Correo electrónico</span>
           <input
@@ -27,19 +26,13 @@
           placeholder="Lo que quieras mi rey"/>
         </label>
         <label for="" class="input-container mb-4">
-          <span class="fw-bold ">Contraseña</span>
+          <span class="fw-bold ">Confirmar correo</span>
           <input
-          type="password"
+          type="email"
           class="form-control texto"
           placeholder="Lo que quieras mi rey"/>
         </label>
-        <div class="d-flex justify-content-center">
-          <p>¿Olvidaste tu contraseña? <router-link to="/recuperar" class="recuperar fw-bold">Recuperar</router-link></p>
-        </div>
-        <button type="" class="boton rounded p-1 mb-2">Ingresar</button>
-        <div class="d-flex justify-content-center">
-          <p>¿No te haz registrado? <router-link to="/registro" class="recuperar fw-bold">Registrarme</router-link></p>
-        </div>
+        <button type="" class="boton rounded p-1 mb-2">Recuperar</button>
       </form>
     </div>
   </div>
@@ -48,13 +41,13 @@
 <script>
 
 export default {
-  name: "Login",
+  name: "Recuperar",
   components: {
   },
 
   methods: {
     login() {
-      console.log('login')
+      console.log('recuperar')
     }
   },
 };

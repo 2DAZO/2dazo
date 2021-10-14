@@ -4,7 +4,7 @@
     </div>
 
     <div class="contenido d-flex justify-content-center">
-      <form action="" method="post" class="form-container my-auto py-5">
+      <form action="" method="post" v-on:submit.prevent="register()" class="form-container my-auto py-5">
         <p class="fw-semibold mb-4" style="font-size: 30px;">Forma parte de esta <strong style="color: var(--naranja);">Familia</strong></p>
         <label for="fullName" class="input-container mb-3">
           <span class="fw-bold ">Nombre completo</span>
@@ -77,10 +77,10 @@
           <input
           type="checkbox"
           class=" mt-1"/>
-          <p class="ms-3">Declaro que he leído y aceptado el <router-link to="/registro-b" class="politica">tratamiento de datos personales</router-link> y los <router-link to="/registro-b" class="politica">términos y condiciones</router-link></p>
+          <p class="ms-3">Declaro que he leído y aceptado el <router-link to="/registro" class="politica">tratamiento de datos personales</router-link> y los <router-link to="/registro" class="politica">términos y condiciones</router-link></p>
         </div>
 
-        <button type="" class="boton rounded p-1 mb-2">Ingresar</button>
+        <button type="" class="boton rounded p-1 mb-2">Registrarme</button>
         <div class="d-flex justify-content-center">
           <p>¿Ya tiene cuenta? <router-link to="/login" class="recuperar fw-bold">Iniciar sesion</router-link></p>
         </div>
@@ -94,6 +94,11 @@
 export default {
   name: "Registro",
   components: {
+  },
+  methods: {
+    register() {
+      console.log('register')
+    }
   },
 };
 </script>
